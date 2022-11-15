@@ -18,66 +18,138 @@ import config as cf
 
 assert cf
 
-from DISClib.ADT import graph as gr
-from DISClib.ADT import stack
-from DISClib.Algorithms.Graphs import bfs, dfs
-from DISClib.DataStructures import singlelinkedlist
+import networkx as nx
 
 
-def new_database():
-    return gr.newGraph()
+class Database:
+    def __init__(self):
+        self.database = nx.Graph()
 
+    def insert_relationship(
+        self, source: str, target: str, src_fk: str = "", target_fk: str = ""
+    ) -> None:
+        self.database.add_edge(source, target, src_fk=src_fk, target_fk=target_fk)
 
-def insert_relationship(database, table_a, table_b, name="", reversed_name=""):
-    return gr.addEdge(
-        database, table_a, table_b, name=name, reversed_name=reversed_name
-    )
+    def insert_table(self, table: str, attrs=None) -> None:
+        if attrs:
+            self.database.add_node(table, **attrs)
+        else:
+            self.database.add_node(table)
 
+    def paths(
+        self,
+        source: str,
+        target: str,
+        cutoff: int = None,
+        include_tables: list = [],
+        exclude_tables: list = [],
+    ) -> list:
+        paths = []
+        for path in nx.all_simple_paths(
+            self.database, source=source, target=target, cutoff=cutoff
+        ):
+            if Database.path_includes(
+                set(path), include_tables
+            ) and not Database.path_includes(path, exclude_tables, any_=True):
+                paths.append(path)
+        return map(nx.utils.pairwise, paths)
 
-def insert_table(database, table):
-    if not table_exists(database, table):
-        return gr.insertVertex(graph=database, vertex=table)
-    return gr
+    @staticmethod
+    def paths_passes_filters(paths, filter_: dict, boolean_operation: str = "AND"):
+        for filter_criteria in filter_.items():
+            func, wanted_value = filter_criteria
+            passes_current = Database._path_passes_filter(paths, func, wanted_value)
+            if not passes_current and boolean_operation == "AND":
+                return False
+            elif passes_current and boolean_operation == "OR":
+                return True
+        return True
 
+    @staticmethod
+    def _path_passes_filter(
+        path: list, func, wanted_value, all_for_true: bool = False
+    ) -> bool:
+        for node in path:
+            if (
+                (func == "=" and node != wanted_value)
+                or (func == "!=" and node == wanted_value)
+                or (func == "in" and wanted_value not in node)
+                or (
+                    func not in ("=", "!=", "in")
+                    and not getattr(node, func)(wanted_value)
+                )
+            ) and all_for_true:
+                return False
+        return True
 
-def table_exists(database, table):
-    return gr.containsVertex(graph=database, vertex=table)
+    def get_tables(self, filter_: dict) -> list:
+        """
+        Parameters
+        ----------
+        filter_ : list
+            Filter criteria list where each item is a tuple where the first 
+            item is a function to apply to the node and the second item is
+            the expected value.
 
+        Returns
+        -------
+        list
+            Nodes that match the given criteria.
+        """
+        filtered = self.database.nodes()
+        for filter_criteria in filter_:
+            func, wanted_value = filter_criteria
+            filtered = self._filter_tables(filtered, func, wanted_value)
+        return filtered
 
-def show_relationships(database, table):
-    return singlelinkedlist.iterator(gr.adjacentEdges(graph=database, vertex=table))
+    @staticmethod
+    def _filter_tables(tables: list, func, wanted_value) -> list:
+        """
+        Parameters
+        ----------
+        tasks: list
+            List of tables to filter.
+        func :
+            A function to apply to the attribute name of the current table to
+            see if it matches the stop criteria.
+        stop_value :
+            Stop criteria; the value determines when the algorithm will stop
+            and decide that the current table must be in the resulting list of
+            filtered tables.
+            
+        Returns
+        -------
+        list
+            Filtered tables.
+        """
+        filtered = []
+        for table in tables:
+            if not (
+                (func == "=" and table != wanted_value)
+                or (func == "!=" and table == wanted_value)
+                or (func == "in" and wanted_value not in table)
+                or (
+                    func not in ("=", "!=", "in")
+                    and not getattr(table, func)(wanted_value)
+                )
+            ):
+                filtered.append(table)
+        return filtered
 
+    @staticmethod
+    def path_includes(path: list, tables: list, any_: bool = False) -> bool:
+        for table in tables:
+            if table not in path and not any_:
+                return False
+            elif table in path and any_:
+                return True
+        return True if not any_ else False
 
-def path_to(database, table_source, table_destination, algorithm: str = "BFS"):
-    if algorithm.upper() == "BFS":
-        paths = bfs.BreadthFisrtSearch(graph=database, source=table_source)
-        return bfs.pathTo(paths, table_destination)
-    elif algorithm.upper() == "DFS":
-        paths = dfs.DepthFirstSearch(graph=database, source=table_source)
-        return dfs.pathTo(paths, table_destination)
-    else:
-        raise Exception(
-            "Algorithm {} does not exist. It must be BFS or DFS".format(algorithm)
-        )
+    def is_empty(self) -> bool:
+        return self.database.number_of_nodes() == 0
 
+    def number_of_tables(self) -> int:
+        return self.database.number_of_nodes()
 
-def pop(s):
-    return stack.pop(s)
-
-
-def isempty(s):
-    return stack.isEmpty(s)
-
-
-def number_of_tables(database):
-    return gr.numVertices(database)
-
-
-def number_of_relationships(database):
-    return gr.numEdges(database)
-
-
-def relationships(database):
-    edges = gr.edges(database)
-    return singlelinkedlist.iterator(edges)
-    # return edges
+    def number_of_relationships(self) -> int:
+        return self.database.number_of_edges()

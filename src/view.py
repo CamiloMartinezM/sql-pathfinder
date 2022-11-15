@@ -20,8 +20,3 @@ import sys
 import controller
 
 assert cf
-
-
-table_source = 'GCCOM_PAYMENT_FORM'
-table_destination = 'GCCOM_SECTOR_SUPPLY'
-

@@ -14,6 +14,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  """
+from xml.etree.ElementInclude import include
 import config as cf
 
 assert cf
@@ -24,18 +25,12 @@ import model
 def load_database_from_file(
     path: str, include_only: list = [], allow_self_reference: bool = True
 ):
-    database = model.new_database()
+    database = model.Database()
     with open(path, "r") as f:
         line = f.readline()
         line = f.readline()
         while line != "" and line is not None:
-            (
-                _,
-                table,
-                column,
-                referenced_table,
-                referenced_column,
-            ) = line.split(",")
+            (_, table, column, referenced_table, referenced_column,) = line.split(",")
             table = table.strip()
             column = column.strip()
             referenced_table = referenced_table.strip()
@@ -59,83 +54,24 @@ def load_database_from_file(
                 continue
 
             # If not, then it must be a foreign key
-            model.insert_table(database, table)
-            model.insert_table(database, referenced_table)
-            rel_name = _relationship_name_from(column, referenced_column)
-            rev_rel_name = _relationship_name_from(referenced_column, column)
-            model.insert_relationship(
-                database,
-                table,
-                referenced_table,
-                name=rel_name,
-                reversed_name=rev_rel_name,
+            database.insert_table(table)
+            database.insert_table(referenced_table)
+            database.insert_relationship(
+                table, referenced_table, src_fk=column, target_fk=referenced_column,
             )
             line = f.readline()
 
     return database
 
+d = load_database_from_file(cf.DATA_PATH / "Tables.csv", allow_self_reference=False,)
 
-def _relationship_name_from(column_1, column_2):
-    return ";".join([column_1, column_2])
+print(d.number_of_tables())
+exclude_tables = d.get_tables(filter_=[("in", "GCGT")])
 
-
-"""
-    include_only=[
-        "GCCOM_PAYMENT_FORM",
-        "GCCOM_CONTRACTED_SERVICE",
-        "GCCOM_FARE",
-        "GCCOM_BILLING_SERVICE",
-        "GCCD_RELATIONSHIP",
-    ],
-"""
-
-d = load_database_from_file(
-    cf.DATA_PATH / "Tables.csv",
-    allow_self_reference=False,
-)
-r = model.show_relationships(d, "GCCD_RELATIONSHIP")
-
-for l in r:
-    print(l)
-
-tables, relationships = model.path_to(
-    d, "GCCD_RELATIONSHIP", "GCCOM_FARE", algorithm="BFS"
-)
-
-while not model.isempty(tables):
-    print(model.pop(tables))
-    print(model.pop(relationships))
-
-"""
-D = model.new_database()
-D = model.insert_table(D, "GCCOM_PAYMENT_FORM")
-D = model.insert_table(D, "GCCOM_CONTRACTED_SERVICE")
-D = model.insert_table(D, "GCCOM_SECTOR_SUPPLY")
-D = model.insert_relationship(
-    D,
-    "GCCOM_PAYMENT_FORM",
-    "GCCOM_CONTRACTED_SERVICE",
-    name="ID_PAYMENT_FORM;ID_PAYMENT_FORM",
-    reversed_name="ID_PAYMENT_FORM;ID_PAYMENT_FORM"
-)
-D = model.insert_relationship(
-    D,
-    "GCCOM_SECTOR_SUPPLY",
-    "GCCOM_CONTRACTED_SERVICE",
-    name="ID_SECTOR_SUPPLY;ID_SECTOR_SUPPLY",
-    reversed_name="ID_SECTOR_SUPPLY;ID_SECTOR_SUPPLY"
-)
-
-# print(model.relationships(D))
-# for relationship in model.relationships(D):
-#     print(relationship)
-
-tables, relationships = model.path_to(D, "GCCOM_PAYMENT_FORM", "GCCOM_SECTOR_SUPPLY")
-
-while not model.isempty(tables):
-    print(model.pop(tables))
-    print(model.pop(relationships))
-
-# for table, relationship in zip(model.iterator(tables), model.iterator(relationships)):
-#    print(table, relationship)
-"""
+for path in d.paths(
+    "GCCOM_FARE",
+    "GCCOM_MASTER_PRICES",
+    cutoff=5,
+    exclude_tables=exclude_tables
+):
+    print(list(path))
