@@ -24,6 +24,7 @@ import networkx as nx
 class Database:
     def __init__(self):
         self.database = nx.Graph()
+        self.edges_attrs = None
 
     def insert_relationship(
         self, source: str, target: str, src_fk: str = "", target_fk: str = ""
@@ -144,6 +145,73 @@ class Database:
             elif table in path and any_:
                 return True
         return True if not any_ else False
+
+    def build_select_query(self, path: list) -> str:
+        if not self.edges_attrs and not self.is_empty():
+            edge_attrs = self.database.edges(data=True)
+            self.edges_attrs = {
+                (node1, node2): attrs for node1, node2, attrs in edge_attrs
+            }
+            self.edges_attrs.update(
+                {(node2, node1): attrs for node1, node2, attrs in edge_attrs}
+            )
+        else:
+            raise Exception("Unable to build the query. The database might be empty")
+
+        query = ""
+        aliases = []
+        for i, edge in enumerate(path):
+            table1, table2 = edge
+            src_fk, target_fk = (
+                self.edges_attrs[edge]["src_fk"],
+                self.edges_attrs[edge]["target_fk"],
+            )
+            start_with_select = True if i == 0 else False
+            query_part, aliases = Database._join_tables(
+                table1,
+                table2,
+                src_fk,
+                target_fk,
+                exclude_aliases=aliases,
+                start_with_select=start_with_select,
+            )
+            query += query_part
+
+        return query
+
+    @staticmethod
+    def _join_tables(
+        table1: str,
+        table2: str,
+        table1_key: str,
+        table2_key,
+        join_type: str = "INNER",
+        exclude_aliases: list = [],
+        start_with_select: bool = False,
+    ) -> str:
+        t1_alias, exclude_aliases = Database._table_alias(table1, exclude_aliases)
+        t2_alias, exclude_aliases = Database._table_alias(table2, exclude_aliases)
+        query = ""
+        if start_with_select:
+            query += "SELECT *\nFROM {} AS {}\n".format(table1, t1_alias)
+
+        query += "{} JOIN {} AS {} ON {}.{} = {}.{}\n".format(
+            join_type, table2, t2_alias, t1_alias, table1_key, t2_alias, table2_key
+        )
+        return query, exclude_aliases
+
+    @staticmethod
+    def _table_alias(table: str, exclude_aliases: list = []) -> str:
+        possible_alias = "".join([p[0] for p in table.split("_")]) if "_" in table else table[0]
+        i = 1
+        while possible_alias in exclude_aliases:
+            if i > 1:
+                possible_alias = possible_alias[:-1] + str(i)
+            else:
+                possible_alias += str(i)
+            i += 1
+        exclude_aliases.append(possible_alias)
+        return possible_alias, exclude_aliases
 
     def is_empty(self) -> bool:
         return self.database.number_of_nodes() == 0

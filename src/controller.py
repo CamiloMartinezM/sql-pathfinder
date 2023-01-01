@@ -74,4 +74,9 @@ for path in d.paths(
     cutoff=5,
     exclude_tables=exclude_tables
 ):
-    print(list(path))
+    path = list(path)
+
+# print(d.database.edges(data=True))
+
+print("")
+print(d.build_select_query(path))
