@@ -37,6 +37,9 @@ class Database:
         else:
             self.database.add_node(table)
 
+    def load_table_attrs(self, attrs: list) -> None:
+        
+
     def paths(
         self,
         source: str,
@@ -147,7 +150,7 @@ class Database:
         return True if not any_ else False
 
     def build_select_query(self, path: list) -> str:
-        if not self.edges_attrs and not self.is_empty():
+        if not self.edges_attrs or not self.is_empty():
             edge_attrs = self.database.edges(data=True)
             self.edges_attrs = {
                 (node1, node2): attrs for node1, node2, attrs in edge_attrs

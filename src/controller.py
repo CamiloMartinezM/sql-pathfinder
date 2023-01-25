@@ -65,16 +65,26 @@ def load_database_from_file(
 
 d = load_database_from_file(cf.DATA_PATH / "Tables.csv", allow_self_reference=False,)
 
+import networkx as nx 
+
+nodes = nx.shortest_path(d.database,'GCCD_RELATIONSHIP').keys()
+
+print(nodes)
+print("")
+
 print(d.number_of_tables())
 exclude_tables = d.get_tables(filter_=[("in", "GCGT")])
 
 for path in d.paths(
+    "GCCOM_FARE_CM_PARAMETER",
     "GCCOM_FARE",
-    "GCCOM_MASTER_PRICES",
     cutoff=5,
-    exclude_tables=exclude_tables
+    exclude_tables=exclude_tables,
+    include_tables=["GCCOM_FARED_CONCEPT", "GCCOM_FARE_PERIOD"]
 ):
     path = list(path)
+    print(d.build_select_query(path))
+    print("")
 
 # print(d.database.edges(data=True))
 

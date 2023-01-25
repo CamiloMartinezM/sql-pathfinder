@@ -1,0 +1,1700 @@
+schema_name;table                                       ;rows       ;table_type
+cdc;captured_columns;667.00;
+cdc;change_tables;21;
+cdc;ddl_history;0;
+cdc;index_columns;21;
+cdc;lsn_time_mapping;421080;
+cdc;OUC_ADMIN_GCCB_COLL_BILLING_CONCEPT_CT;666828;
+cdc;OUC_ADMIN_GCCB_COLLECTION_NOTICE_BILL_CT;42735;
+cdc;OUC_ADMIN_GCCB_REMAINING_AMOUNT_CT;1911;
+cdc;OUC_ADMIN_GCCC_COMMUNICATION_CT;12595;
+cdc;OUC_ADMIN_GCCC_COMPLAINT_CT;21039;
+cdc;OUC_ADMIN_GCCC_OUTAGE_CT;3333.0000;
+cdc;OUC_ADMIN_GCCOM_ANOMALOUS_CT;176394;
+cdc;OUC_ADMIN_GCCOM_BILLING_CONCEPT_CT;2079540;
+cdc;OUC_ADMIN_GCCOM_CS_FINANCE_CT;101;
+cdc;OUC_ADMIN_GCCOM_REBILLING_ACTIVITY_CT;169;
+cdc;OUC_ADMIN_GCGT_CA_CAMPAIGN_CT;38;
+cdc;OUC_ADMIN_GCGT_IR_IRREGULARITY_CT;211;
+cdc;OUC_ADMIN_GCGT_NS_REQUEST_BUDGET_CT;6;
+cdc;OUC_ADMIN_GCGT_NS_WORK_REQUEST_CT;78;
+cdc;OUC_COMMON_ADMIN_GCCOM_BILL_CT;892736;
+cdc;OUC_COMMON_ADMIN_GCCOM_CONTRACTED_SERVICE_CT;140827;
+cdc;OUC_COMMON_ADMIN_GCCOM_SECTOR_SUPPLY_CT;1401;
+cdc;OUC_COMMON_ADMIN_GCCOM_SERVICE_REQUEST_CT;5502;
+cdc;OUC_COMMON_ADMIN_GCGT_RE_ANOMALOUS_CT;303290;
+cdc;OUC_COMMON_ADMIN_GCGT_RE_READING_CT;1170133;
+cdc;OUCW_ADMIN_GCGT_WO_FIELD_ACTIVITY_CT;24011;
+dbo;AUX_SELF_SERVICE;2568106;
+dbo;systranschemas;0;
+OUC_ADMIN;ADP_GCCB_CFDI;31136;B
+OUC_ADMIN;ADP_GCCB_CFDI_DET_CONS;116255;B
+OUC_ADMIN;ADP_GCCB_CFDI_DET_CUST;31136;B
+OUC_ADMIN;ADP_GCCB_CFDI_DET_TAX;55481;B
+OUC_ADMIN;ADP_GCCB_CFDI_DETAIL;31136;B
+OUC_ADMIN;ADP_GCCB_CFDI_RELATION;41393;B
+OUC_ADMIN;ADP_GCCB_CFDI_TYPE;8;M
+OUC_ADMIN;ADP_GCCB_TICKETTO_NUMBERS;1405042;B
+OUC_ADMIN;ADP_GCCOM_CONCEPTS_MASTER;44;P
+OUC_ADMIN;ADP_GCCOM_CONCEPTS_MASTER_RELA;228;P
+OUC_ADMIN;ADP_GCCOM_FARE_TAX;0;B
+OUC_ADMIN;ADP_GCGT_CA_WATER;2;B
+OUC_ADMIN;ADP_GCGT_CA_WATER_DATES;3;B
+OUC_ADMIN;ADP_GCGT_CA_WATER_DETAIL;115;B
+OUC_ADMIN;ADP_GCGT_CA_WATER_URL;2;B
+OUC_ADMIN;AUX_GCGT_GAS_DIST_AREA_GEO_ENT;0;B
+OUC_ADMIN;GCACC_ACCOUNTING_PERIOD;958;C
+OUC_ADMIN;GCACC_BILLING_DOC;16787550;B
+OUC_ADMIN;GCACC_BILLING_MOV;91044932;B
+OUC_ADMIN;GCACC_COLL_OPERATION_DEF;133;C
+OUC_ADMIN;GCACC_COLL_OPERATION_DEF_PARAM;195;P
+OUC_ADMIN;GCACC_COLL_OPERATION_DETAIL;98465069;B
+OUC_ADMIN;GCACC_CONTROL_BATCH;8604;C
+OUC_ADMIN;GCACC_FILE_COLL_PEND_DOC_BU;84166293;B
+OUC_ADMIN;GCACC_FILE_COLL_PENDING_DOC;14538533;B
+OUC_ADMIN;GCACC_FILE_COLL_PENDING_HEADER;28;B
+OUC_ADMIN;GCACC_FILE_COLL_PENDING_SUM;17;B
+OUC_ADMIN;GCACC_FILE_GL_DETAIL;832151;B
+OUC_ADMIN;GCACC_FILE_GL_DOCUMENT;11164;B
+OUC_ADMIN;GCACC_FILE_GL_HEADER;818;B
+OUC_ADMIN;GCACC_FILE_RRL_DETAIL;0;B
+OUC_ADMIN;GCACC_FILE_RRL_HEADER;0;B
+OUC_ADMIN;GCACC_FILE_TOWN_TAX_DETAIL;0;B
+OUC_ADMIN;GCACC_FILE_TOWN_TAX_DOCUMENT;0;B
+OUC_ADMIN;GCACC_FILE_TOWN_TAX_HEADER;0;B
+OUC_ADMIN;GCACC_FILE_VALIDATION_ERROR;5269;B
+OUC_ADMIN;GCACC_FISCAL_REGION_PROVINCE;19;P
+OUC_ADMIN;GCACC_GL_DOCUMENT;11161;B
+OUC_ADMIN;GCACC_GL_DOCUMENT_DET;822424;B
+OUC_ADMIN;GCACC_GROUP_CONF_APPLIED;823;B
+OUC_ADMIN;GCACC_GROUP_CONF_APPLIED_DET;33740;B
+OUC_ADMIN;GCACC_GROUP_CONFIGURATION;164;C
+OUC_ADMIN;GCACC_PARAM_CONCEPT;496286;C
+OUC_ADMIN;GCACC_PARAM_GL;469051;C
+OUC_ADMIN;GCACC_SIMULATION_TASK_DETAIL;0;B
+OUC_ADMIN;GCACC_SIMULATION_TASKS;0;B
+OUC_ADMIN;GCACC_TEMP_COUNTABLE_ACCOUNT;24;B
+OUC_ADMIN;GCACC_TOWN_TAX;0;B
+OUC_ADMIN;GCACC_TOWN_TAX_BILL;0;B
+OUC_ADMIN;GCACC_TOWN_TAX_MOV;0;B
+OUC_ADMIN;GCACC_VALIDATIONS_LOG;52;B
+OUC_ADMIN;GCBILL_CCGG_OPERATION_MASTER;0;M
+OUC_ADMIN;GCCB_ACCOUNT_EXTERNAL_AGENCY;0;B
+OUC_ADMIN;GCCB_ACCOUNT_FORMAT_TYPE;3;M
+OUC_ADMIN;GCCB_ACCOUNT_FORMAT_VALUES;16;C
+OUC_ADMIN;GCCB_ACTIVE_PERIOD;0;B
+OUC_ADMIN;GCCB_AGING_PERIOD_TYPE;4;M
+OUC_ADMIN;GCCB_ALLOC_POLICY_TYPE;8;M
+OUC_ADMIN;GCCB_ALLOC_RULE;2;C
+OUC_ADMIN;GCCB_ALLOC_RULE_DETAIL;33;C
+OUC_ADMIN;GCCB_BAD_DEBT_BILL;0;B
+OUC_ADMIN;GCCB_BANK_COMMISSION;0;B
+OUC_ADMIN;GCCB_BANK_COMMISSION_HIST;0;B
+OUC_ADMIN;GCCB_BANK_DEPOSIT;19918;B
+OUC_ADMIN;GCCB_BANK_DEPOSIT_DETAIL;19918;B
+OUC_ADMIN;GCCB_BANK_DEPOSIT_ORIGIN_TYPE;2;M
+OUC_ADMIN;GCCB_BANK_DEPOSIT_TYPE;9;M
+OUC_ADMIN;GCCB_BANK_NORM_TYPE;8;M
+OUC_ADMIN;GCCB_BANK_REC_DETAIL;45846;B
+OUC_ADMIN;GCCB_BANK_RECONCILIATION;22923;B
+OUC_ADMIN;GCCB_BANK_RECONCILIATION_HIST;239;B
+OUC_ADMIN;GCCB_BARCODE_TYPE;4;M
+OUC_ADMIN;GCCB_BRANCH_SEEDBED;0;C
+OUC_ADMIN;GCCB_CASH_MOV_LOT_APP;0;B
+OUC_ADMIN;GCCB_CASH_MOVEMENTS;1248350;B
+OUC_ADMIN;GCCB_CASH_NON_INVOICE_TYPE;0;M
+OUC_ADMIN;GCCB_CASH_ON_DELIVERY;24357;B
+OUC_ADMIN;GCCB_CASH_STATUS;2;M
+OUC_ADMIN;GCCB_CASHIER;60685;G
+OUC_ADMIN;GCCB_CHECK_RETURN_REASON_TYPE;3;M
+OUC_ADMIN;GCCB_CHECK_RETURN_SOLVE_TYPE;2;M
+OUC_ADMIN;GCCB_CHEQUE;674534;B
+OUC_ADMIN;GCCB_CHEQUE_ONLINE_COLLECTION;674534;B
+OUC_ADMIN;GCCB_CHEQUE_REMITTANCE_MOVE;11956;B
+OUC_ADMIN;GCCB_CIRCUIT_TYPE;2;M
+OUC_ADMIN;GCCB_COLL_ACTIVATION_STATUS;3;M
+OUC_ADMIN;GCCB_COLL_ACTIVITY_HISTORY;102977;B
+OUC_ADMIN;GCCB_COLL_AGENCY_BILL_ORDER;61;B
+OUC_ADMIN;GCCB_COLL_BILLCONC_DISCOUNTS;93398481;B
+OUC_ADMIN;GCCB_COLL_BILLING_CONCEPT;114685249;B
+OUC_ADMIN;GCCB_COLL_BUDGCONC_DISCOUNTS;3611;B
+OUC_ADMIN;GCCB_COLL_BUDGET_CONCEPT;6799;B
+OUC_ADMIN;GCCB_COLL_CLEARING_INFORMATION;0;B
+OUC_ADMIN;GCCB_COLL_EVENT_TYPE;2;M
+OUC_ADMIN;GCCB_COLL_EXCEPTION_TYPE;2;M
+OUC_ADMIN;GCCB_COLL_GENERATED_LETTERS;2538;B
+OUC_ADMIN;GCCB_COLL_GROUP_ENTRY_HIST;2539973;B
+OUC_ADMIN;GCCB_COLL_GROUP_STATUS_HIST;593766;B
+OUC_ADMIN;GCCB_COLL_MANUAL_TRANSITION;59;P
+OUC_ADMIN;GCCB_COLL_RESTART_FORM;2;M
+OUC_ADMIN;GCCB_COLL_RESTART_TYPE;35;M
+OUC_ADMIN;GCCB_COLL_STATUS_RELATION;19;P
+OUC_ADMIN;GCCB_COLL_TRANS_REASON_GROUPS;9;P
+OUC_ADMIN;GCCB_COLL_TRANS_REASON_TYPE;1;M
+OUC_ADMIN;GCCB_COLL_TRANSITION_EVENT;78083;B
+OUC_ADMIN;GCCB_COLL_TRANSITION_REASON;9;M
+OUC_ADMIN;GCCB_COLL_UNPAID_GROUP;85820;B
+OUC_ADMIN;GCCB_COLL_UNPAID_GROUP_ATTR;0;B
+OUC_ADMIN;GCCB_COLL_UNPAID_GROUP_BILL;3892766;B
+OUC_ADMIN;GCCB_COLL_WORK_ACTIVITY;60029;B
+OUC_ADMIN;GCCB_COLL_WORK_ACTIVITY_STATUS;3;M
+OUC_ADMIN;GCCB_COLL_WORK_ACTIVITY_TYPE;10;M
+OUC_ADMIN;GCCB_COLL_WORK_SUBACTIVITY;60029;B
+OUC_ADMIN;GCCB_COLLDATA_PAYMENT_FORM;543423;G
+OUC_ADMIN;GCCB_COLLECTION_CENTER;62;C
+OUC_ADMIN;GCCB_COLLECTION_CENTER_TYPE;2;M
+OUC_ADMIN;GCCB_COLLECTION_NOTICE_BILL;27261244;B
+OUC_ADMIN;GCCB_COLLECTION_STATUS_TYPE;6;M
+OUC_ADMIN;GCCB_COMM_RECORD_UPDATE_TYPE;4;M
+OUC_ADMIN;GCCB_COMMISSION_STATUS;3;M
+OUC_ADMIN;GCCB_COMMUNICATION;0;B
+OUC_ADMIN;GCCB_COMMUNICATION_RECORD;0;B
+OUC_ADMIN;GCCB_COMPANY_ACCOUNT;0;B
+OUC_ADMIN;GCCB_CONFIRM_METHOD_TYPE;3;M
+OUC_ADMIN;GCCB_COUNTRY_BANK_ACC_PROP;8;P
+OUC_ADMIN;GCCB_CSC_CUST_AGENCY_SCORE;621185;B
+OUC_ADMIN;GCCB_CSC_CUSTOMER;690641;G
+OUC_ADMIN;GCCB_CSC_ELIGIBILITY_TYPE;6;P
+OUC_ADMIN;GCCB_CSC_ESTABLISH_TYPE;7;M
+OUC_ADMIN;GCCB_CSC_LETTER_RATING_TYPE;3;M
+OUC_ADMIN;GCCB_CSC_LIMIT_RULE_TYPE;0;C
+OUC_ADMIN;GCCB_CSC_LIMITATION_TYPE;3;M
+OUC_ADMIN;GCCB_CSC_TICK_REGISTER;730163;B
+OUC_ADMIN;GCCB_CSC_TICK_TYPE;17;P
+OUC_ADMIN;GCCB_DELIVERY_INSTRUCT_TYPE;4;M
+OUC_ADMIN;GCCB_DEP_INT_HISTORIC;3;P
+OUC_ADMIN;GCCB_DEP_INT_MASTER;4;P
+OUC_ADMIN;GCCB_DEP_INT_REFUND_TYPE;3;M
+OUC_ADMIN;GCCB_DEP_INTEREST_STATUS;5;M
+OUC_ADMIN;GCCB_DEP_INTPERIOD_TYPE;4;M
+OUC_ADMIN;GCCB_DEP_MASTER;0;P
+OUC_ADMIN;GCCB_DEP_REFUND_TYPE;2;M
+OUC_ADMIN;GCCB_DEP_STATUS_HIST;0;B
+OUC_ADMIN;GCCB_DEPOSIT;0;B
+OUC_ADMIN;GCCB_DEPOSIT_BILL;0;B
+OUC_ADMIN;GCCB_DEPOSIT_INTEREST;0;B
+OUC_ADMIN;GCCB_DEPOSIT_REMAINING;0;B
+OUC_ADMIN;GCCB_DEPOSIT_STATUS;5;M
+OUC_ADMIN;GCCB_DOC_LIQUIDATION_TYPE;3;M
+OUC_ADMIN;GCCB_DOM_HEADER_HISTORIC;0;B
+OUC_ADMIN;GCCB_DOMICILED_DETAIL;0;B
+OUC_ADMIN;GCCB_DOMICILED_HEADER;0;B
+OUC_ADMIN;GCCB_DOMICILED_STATUS;3;M
+OUC_ADMIN;GCCB_EFFECT_TYPE;1;M
+OUC_ADMIN;GCCB_EFT_REMITTANCE_MOVE;27072;B
+OUC_ADMIN;GCCB_ENTITY_REC_MOVEMENT;9;P
+OUC_ADMIN;GCCB_ENTITY_TYPE;14;M
+OUC_ADMIN;GCCB_ERROR_DOM_DETAIL_TYPE;17;M
+OUC_ADMIN;GCCB_ERROR_DOM_HEADER_TYPE;10;M
+OUC_ADMIN;GCCB_EXPENSED_OFF_GROUP;1;P
+OUC_ADMIN;GCCB_EXPENSED_OFF_GROUP_TYPE;1;M
+OUC_ADMIN;GCCB_EXPENSED_OFF_TYPE;22;P
+OUC_ADMIN;GCCB_EXTERNAL_COLL_STATUS;6;M
+OUC_ADMIN;GCCB_EXTERNAL_COLLECTIONS;336260;B
+OUC_ADMIN;GCCB_EXTERNAL_PAYMENT_TYPE;1;M
+OUC_ADMIN;GCCB_FILE;1506;B
+OUC_ADMIN;GCCB_FILE_TYPE;19;M
+OUC_ADMIN;GCCB_FORMAT_TYPE;79;M
+OUC_ADMIN;GCCB_FUNDS_BRANCH;4;P
+OUC_ADMIN;GCCB_FUNDS_BRANCH_BY_OFFICE;100;P
+OUC_ADMIN;GCCB_GOV_COMPENSATIONS;0;B
+OUC_ADMIN;GCCB_GOV_COMPENSATIONS_STATUS;3;M
+OUC_ADMIN  ;GCCB_FORMAT_TYPE                            ;79;M         
+OUC_ADMIN  ;GCCB_FUNDS_BRANCH                           ;4;P         
+OUC_ADMIN  ;GCCB_FUNDS_BRANCH_BY_OFFICE                 ;100;P         
+OUC_ADMIN  ;GCCB_GOV_COMPENSATIONS                      ;0;B         
+OUC_ADMIN  ;GCCB_GOV_COMPENSATIONS_STATUS               ;3;M         
+OUC_ADMIN  ;GCCB_GOV_EXECUTING_UNIT                     ;0;B         
+OUC_ADMIN  ;GCCB_GOV_INCISE_EXEC_UNIT                   ;0;B         
+OUC_ADMIN  ;GCCB_GOV_PAYMENT_FORM                       ;0;B         
+OUC_ADMIN  ;GCCB_GOV_PROGRAM                            ;0;B         
+OUC_ADMIN  ;GCCB_GROUP_CUSTOMERS                        ;1;G         
+OUC_ADMIN  ;GCCB_GROUP_MOVEMENT_DEF                     ;26;P         
+OUC_ADMIN  ;GCCB_GROUP_MOVEMENT_TYPES                   ;5;P         
+OUC_ADMIN  ;GCCB_GROUP_TYPE_SPECIALIZATION              ;2;C         
+OUC_ADMIN  ;GCCB_GUARANTEE                              ;0;B         
+OUC_ADMIN  ;GCCB_GUARANTEE_STATUS                       ;3;M         
+OUC_ADMIN  ;GCCB_GUARANTEE_TYPE                         ;2;M         
+OUC_ADMIN  ;GCCB_HCAL_NOTICE_STATUS                     ;51.056.390 ;B         
+OUC_ADMIN  ;GCCB_HCAL_PAY_ACCOUNT_STATUS                ;2.538;B         
+OUC_ADMIN  ;GCCB_HCAL_REMITTANCE_STATUS                 ;660;B         
+OUC_ADMIN  ;GCCB_HCAL_SUPPORT_STATUS                    ;0;B         
+OUC_ADMIN  ;GCCB_IC_ADMIN_CHARGE_CALC_TYPE              ;5;P         
+OUC_ADMIN  ;GCCB_INFORMATION_RETURN_TYPE                ;2;M         
+OUC_ADMIN  ;GCCB_INSTALL_CONTRACT_MASTER                ;12;C         
+OUC_ADMIN  ;GCCB_INSTALL_CONTRACT_PROFILE               ;100;P         
+OUC_ADMIN  ;GCCB_LETTER_METHOD_TYPE                     ;2;M         
+OUC_ADMIN  ;GCCB_LIMIT_BY_CURRENCY_OFFICE               ;0;P         
+OUC_ADMIN  ;GCCB_LOT                                    ;290.91;B         
+OUC_ADMIN  ;GCCB_LOT_DETAIL                             ;394.767;B         
+OUC_ADMIN  ;GCCB_LOT_DETAIL_STATUS                      ;3;M         
+OUC_ADMIN  ;GCCB_LOT_DETAIL_TYPE                        ;12;M         
+OUC_ADMIN  ;GCCB_LOT_ERROR_TYPE                         ;11;M         
+OUC_ADMIN  ;GCCB_LOT_STATUS                             ;7;M         
+OUC_ADMIN  ;GCCB_MESSAGE                                ;44;C         
+OUC_ADMIN  ;GCCB_MESSAGE_ARGUMENT                       ;7;M         
+OUC_ADMIN  ;GCCB_MESSAGE_ARGUMENTS_CODE                 ;8;M         
+OUC_ADMIN  ;GCCB_MESSAGE_BUSSINES_RULE                  ;6;C         
+OUC_ADMIN  ;GCCB_MESSAGE_TYPE                           ;7;M         
+OUC_ADMIN  ;GCCB_MIX_PAYMENT_MOVE                       ;0;B         
+OUC_ADMIN  ;GCCB_MOVEMENT_TYPE                          ;35;M         
+OUC_ADMIN  ;GCCB_MOVTYPE_BY_PAYMODE                     ;45;M         
+OUC_ADMIN  ;GCCB_NON_INVOICE_MOVE                       ;0;B         
+OUC_ADMIN  ;GCCB_NOTICE                                 ;53.775.237 ;B         
+OUC_ADMIN  ;GCCB_NOTICE_BILL                            ;58.749.750 ;B         
+OUC_ADMIN  ;GCCB_NOTICE_COMPOSITION                     ;53.775.237 ;B         
+OUC_ADMIN  ;GCCB_NOTICE_COMPOSITION_URL                 ;6.555.963  ;B         
+OUC_ADMIN  ;GCCB_NOTICE_HDUEDATE                        ;0;B         
+OUC_ADMIN  ;GCCB_NOTICE_MESSAGE                         ;2.916.418  ;B         
+OUC_ADMIN  ;GCCB_NOTICE_MESSAGE_ARGUMENT                ;1.649.085  ;B         
+OUC_ADMIN  ;GCCB_NOTICE_PAYMENT_ACCOUNT                 ;1.269;B         
+OUC_ADMIN  ;GCCB_NOTICE_STATUS                          ;6;M         
+OUC_ADMIN  ;GCCB_NOTICE_TYPE                            ;2;M         
+OUC_ADMIN  ;GCCB_OK_FORMAT_TYPE                         ;0;M         
+OUC_ADMIN  ;GCCB_OK_REMITTANCE                          ;0;B         
+OUC_ADMIN  ;GCCB_OK_REMITTANCE_ERROR_TYPE               ;0;M         
+OUC_ADMIN  ;GCCB_ONLINE_COLLECTION                      ;10.744.407 ;B         
+OUC_ADMIN  ;GCCB_ORDER_TYPE                             ;2;M         
+OUC_ADMIN  ;GCCB_OVERRIDE_REASON_TYPE                   ;7;P         
+OUC_ADMIN  ;GCCB_PARAM_SERIES_GROUP_TYPE                ;41;P         
+OUC_ADMIN  ;GCCB_PAY_ACCOUNT_REMITTANCE                 ;1.269;B         
+OUC_ADMIN  ;GCCB_PAYBACK                                ;1.567;B         
+OUC_ADMIN  ;GCCB_PAYBACK_REASON_TYPE                    ;9;M         
+OUC_ADMIN  ;GCCB_PAYBACK_SOLVE                          ;0;B         
+OUC_ADMIN  ;GCCB_PAYBACK_SOLVE_TYPE                     ;1;M         
+OUC_ADMIN  ;GCCB_PAYBACK_TYPE                           ;3;M         
+OUC_ADMIN  ;GCCB_PAYMENT_ACCOUNT                        ;1.269;B         
+OUC_ADMIN  ;GCCB_PAYMENT_ACCOUNT_STATUS                 ;8;M         
+OUC_ADMIN  ;GCCB_PAYMENT_CHANNEL_TYPE                   ;7;M         
+OUC_ADMIN  ;GCCB_PAYMENT_FORM_MESSAGE                   ;5.100.437  ;B         
+OUC_ADMIN  ;GCCB_PAYMENT_FORM_MESSAGE                   ;5.100.438  ;B         
+OUC_ADMIN  ;GCCB_PAYMENT_MODE_BY_OFFICE                 ;111;C         
+OUC_ADMIN  ;GCCB_PAYMENT_MODE_TYPE                      ;15;M         
+OUC_ADMIN  ;GCCB_PAYMENT_OPERATION_TYPE                 ;2;M         
+OUC_ADMIN  ;GCCB_PAYMENT_REQ_ASOC_ONLINE                ;1.883;P         
+OUC_ADMIN  ;GCCB_PAYMENT_REQ_CARD                       ;285.785;B         
+OUC_ADMIN  ;GCCB_PAYMENT_REQUEST_STATUS                 ;4;M         
+OUC_ADMIN  ;GCCB_PAYMENT_REQUEST_TYPE                   ;2;M         
+OUC_ADMIN  ;GCCB_PERIODIFICATION_TYPE                   ;2;M         
+OUC_ADMIN  ;GCCB_PYMT_OTHER_DETAIL                      ;0;B         
+OUC_ADMIN  ;GCCB_PYMT_OTHER_HEADER                      ;0;B         
+OUC_ADMIN  ;GCCB_RECONCILIATION_STATUS                  ;2;M         
+OUC_ADMIN  ;GCCB_REF_DOC_BARCODE                        ;51.157.802 ;B         
+OUC_ADMIN  ;GCCB_REF_DOC_SOURCE_TYPE                    ;8;M         
+OUC_ADMIN  ;GCCB_REFERENCE_DOC_BILL                     ;20.848.251 ;B         
+OUC_ADMIN  ;GCCB_REFERENCE_DOCUMENT                     ;13.184.870 ;B         
+OUC_ADMIN  ;GCCB_REFUND_RETURN_REASON_TYPE              ;0;P         
+OUC_ADMIN  ;GCCB_REMAIN_MANAGE_TYPE                     ;22;M         
+OUC_ADMIN  ;GCCB_REMAIN_REFUND_TYPE                     ;3;M         
+OUC_ADMIN  ;GCCB_REMAIN_SOLVE_TYPE                      ;21;M         
+OUC_ADMIN  ;GCCB_REMAINING_AMOUNT                       ;115.297;B         
+OUC_ADMIN  ;GCCB_REMAINING_HISTORY                      ;288.384;B         
+OUC_ADMIN  ;GCCB_REMAINING_STATUS_TYPE                  ;5;M         
+OUC_ADMIN  ;GCCB_REMIT_LIQUIDATION_STATUS               ;1;M         
+OUC_ADMIN  ;GCCB_REMITTANCE                             ;258;G         
+OUC_ADMIN  ;GCCB_REMITTANCE_CONDITION                   ;3;C         
+OUC_ADMIN  ;GCCB_REMITTANCE_STATUS                      ;6;M         
+OUC_ADMIN  ;GCCB_RETENTION_TYPE                         ;2;M         
+OUC_ADMIN  ;GCCB_SEED_COLLECTION_BALANCE                ;0;P         
+OUC_ADMIN  ;GCCB_SEED_COLLECTION_PROCESS                ;22;C         
+OUC_ADMIN  ;GCCB_SEED_REMITTANCE_PROCESS                ;3;C         
+OUC_ADMIN  ;GCCB_SEEDBED_COLLECTION                     ;59;C         
+OUC_ADMIN  ;GCCB_SEEDBED_COMMISSION                     ;17;C         
+OUC_ADMIN  ;GCCB_SEEDBED_COMMISSION_HIST                ;0;P         
+OUC_ADMIN  ;GCCB_SEEDBED_REMITTANCE                     ;3;C         
+OUC_ADMIN  ;GCCB_SEND_CALENDAR                          ;0;P         
+OUC_ADMIN  ;GCCB_SEND_CONDITION_TYPE                    ;3;M         
+OUC_ADMIN  ;GCCB_SEND_SERVICE_INSTRUCT                  ;846.335;B         
+OUC_ADMIN  ;GCCB_SERIES                                 ;727;C         
+OUC_ADMIN  ;GCCB_SERIES_GROUP                           ;736;C         
+OUC_ADMIN  ;GCCB_SERIES_GROUP_TYPE                      ;30;M         
+OUC_ADMIN  ;GCCB_SIGN_TYPE                              ;2;M         
+OUC_ADMIN  ;GCCB_SOLVE_EXCEPTION_TYPE                   ;5;M         
+OUC_ADMIN  ;GCCB_SOLVE_REASON_TYPE                      ;5;M         
+OUC_ADMIN  ;GCCB_STATUS_CHEQUE                          ;4;M         
+OUC_ADMIN  ;GCCB_SUPPORT_DOMICILED                      ;1.488;B         
+OUC_ADMIN  ;GCCB_SUPPORT_ERROR_REASON_TYPE              ;64;M         
+OUC_ADMIN  ;GCCB_SUPPORT_STATUS                         ;6;M         
+OUC_ADMIN  ;GCCB_TMP_LPC_BILL                           ;211.297.652;B         
+OUC_ADMIN  ;GCCB_UPDATE_COLLECTION_TYPE                 ;3;M         
+OUC_ADMIN  ;GCCB_WHT_CERTIFICATE                        ;0;B         
+OUC_ADMIN  ;GCCB_WHT_CERTIFICATE_BILLS                  ;0;B         
+OUC_ADMIN  ;GCCB_WHT_CERTIFICATE_STATUS                 ;2;M         
+OUC_ADMIN  ;GCCB_WHT_CERTIFICATE_TYPE                   ;2;M         
+OUC_ADMIN  ;GCCB_WRONG_CHECK_RETURN_TYPE                ;8;M         
+OUC_ADMIN  ;GCCB_WRONG_COLL_SOLVE_TYPE                  ;8;M         
+OUC_ADMIN  ;GCCB_WRONG_COLLECTION                       ;2.173;B         
+OUC_ADMIN  ;GCCB_WRONG_COLLECTION_SOLVE                 ;802;B         
+OUC_ADMIN  ;GCCB_WRONG_COLLECTION_STATUS                ;2;M         
+OUC_ADMIN  ;GCCB_WRONG_COLLECTION_TYPE                  ;17;M         
+OUC_ADMIN  ;GCCB_WRONG_PAYBACK                          ;610;B         
+OUC_ADMIN  ;GCCB_WRONG_PAYBACK_SOLVE                    ;0;B         
+OUC_ADMIN  ;GCCB_WRONG_PAYBACK_STATUS                   ;3;M         
+OUC_ADMIN  ;GCCB_WRONG_PAYBACK_TYPE                     ;7;M         
+OUC_ADMIN  ;GCCC_ALERT_BANNER_TYPE                      ;10;M         
+OUC_ADMIN  ;GCCC_ALERT_ENTITY                           ;10.528.990 ;B         
+OUC_ADMIN  ;GCCC_ALERT_TYPE                             ;29;M         
+OUC_ADMIN  ;GCCC_ALERTS                                 ;4.280.791  ;B         
+OUC_ADMIN  ;GCCC_CC_GROUP_TYPE                          ;4;C         
+OUC_ADMIN  ;GCCC_CLASS_COMPLAINT_ASOC                   ;100;M         
+OUC_ADMIN  ;GCCC_CO_CONTACT_INFO                        ;142.971;B         
+OUC_ADMIN  ;GCCC_COMMUNICATION                          ;622.946;B         
+OUC_ADMIN  ;GCCC_COMMUNICATION_SOB_ASOC                 ;622.946;B         
+OUC_ADMIN  ;GCCC_COMPL_TYP_ATT                          ;14;P         
+OUC_ADMIN  ;GCCC_COMPLAINT                              ;462.49;B         
+OUC_ADMIN  ;GCCC_COMPLAINT_ATT                          ;85.931;B         
+OUC_ADMIN  ;GCCC_COMPLAINT_CLASS                        ;20;M         
+OUC_ADMIN  ;GCCC_COMPLAINT_ENTITY_TYPE                  ;3;M         
+OUC_ADMIN  ;GCCC_COMPLAINT_MOTIVE                       ;2;M         
+OUC_ADMIN  ;GCCC_COMPLAINT_STATUS                       ;45;M         
+OUC_ADMIN  ;GCCC_COMPLAINT_SUBTYPE                      ;3;M         
+OUC_ADMIN  ;GCCC_COMPLAINT_TYPE                         ;104;C         
+OUC_ADMIN  ;GCCC_COMPLAINT_VALIDATION                   ;19;P         
+OUC_ADMIN  ;GCCC_CUSTOM_ATT                             ;2;M         
+OUC_ADMIN  ;GCCC_DELIVERY_METHODS                       ;2;P         
+OUC_ADMIN  ;GCCC_ENTITY_DEFINITION                      ;0;B         
+OUC_ADMIN  ;GCCC_LND_CS_HIST                            ;0;B         
+OUC_ADMIN  ;GCCC_LND_HIST_STATUS                        ;0;B         
+OUC_ADMIN  ;GCCC_LND_MPERIODS                           ;0;M         
+OUC_ADMIN  ;GCCC_LND_MSTATUS                            ;5;M         
+OUC_ADMIN  ;GCCC_LND_MTYPE                              ;3;M         
+OUC_ADMIN  ;GCCC_LND_NOTIF_GROUP                        ;0;B         
+OUC_ADMIN  ;GCCC_LND_PROCESS                            ;5;M         
+OUC_ADMIN  ;GCCC_LND_REL_PERIODS                        ;0;B         
+OUC_ADMIN  ;GCCC_LND_RELATIONSHIP                       ;0;B         
+OUC_ADMIN  ;GCCC_LND_TYPE_NOTIF                         ;15;P         
+OUC_ADMIN  ;GCCC_MODULE                                 ;11;M         
+OUC_ADMIN  ;GCCC_MSUFFIX                                ;0;M         
+OUC_ADMIN  ;GCCC_OUTAGE                                 ;49.155;B         
+OUC_ADMIN  ;GCCC_OUTAGE_AREA_DETAIL                     ;62.729;B         
+OUC_ADMIN  ;GCCC_OUTAGE_ATTRIBUTES                      ;220.932;B         
+OUC_ADMIN  ;GCCC_OUTAGE_OT                              ;42.613;B         
+OUC_ADMIN  ;GCCC_OUTAGE_STATUS                          ;5;P         
+OUC_ADMIN  ;GCCC_OUTAGE_TYPE                            ;9;P         
+OUC_ADMIN  ;GCCC_OUTPUT_COM_POOL_PRIORITY               ;3;M         
+OUC_ADMIN  ;GCCC_OUTPUT_COM_POOL_STATUS                 ;5;M         
+OUC_ADMIN  ;GCCC_OUTPUT_COMM_POOL_HIST                  ;90.308;B         
+OUC_ADMIN  ;GCCC_OUTPUT_COMMUNICATION_POOL              ;90.216;B         
+OUC_ADMIN  ;GCCC_QUESTIONNAIRE                          ;89.673;B         
+OUC_ADMIN  ;GCCC_QUESTIONNAIRE_TYPE                     ;1;P         
+OUC_ADMIN  ;GCCC_REL_VIP_MOTIVES                        ;0;B         
+OUC_ADMIN  ;GCCC_RELATION_ENTITY                        ;5.021.866  ;B         
+OUC_ADMIN  ;GCCC_RS_REMOTE_RESERV_CALENDAR              ;0;B         
+OUC_ADMIN  ;GCCC_RS_REMOTE_SERV_CAL_STATUS              ;3;P         
+OUC_ADMIN  ;GCCC_RS_REMOTE_SERV_CALENDAR                ;1.116;B         
+OUC_ADMIN  ;GCCC_RS_REMOTE_SERV_STATUS                  ;3;P         
+OUC_ADMIN  ;GCCC_RS_REMOTE_SERV_TYPE_AGENT              ;0;P         
+OUC_ADMIN  ;GCCC_RS_REMOTE_SERVICE_TYPE                 ;0;P         
+OUC_ADMIN  ;GCCC_RS_REMOTE_SERVICES                     ;0;B         
+OUC_ADMIN  ;GCCC_RS_REMOTE_SRV_RESULT_TYPE              ;3;P         
+OUC_ADMIN  ;GCCC_SALE_ORDERS                            ;0;B         
+OUC_ADMIN  ;GCCC_SERVICE_OBJECT                         ;622.946;B         
+OUC_ADMIN  ;GCCC_SO_DROP_REASONS                        ;2;P         
+OUC_ADMIN  ;GCCC_SOB_CATEGORY                           ;29;M         
+OUC_ADMIN  ;GCCC_SOB_SPECIALIZATION                     ;270;C         
+OUC_ADMIN  ;GCCC_SOB_TASKS                              ;622.946;B         
+OUC_ADMIN  ;GCCC_SOB_TASKS_STATUS                       ;2;M         
+OUC_ADMIN  ;GCCC_SOB_TYPE                               ;63;C         
+OUC_ADMIN  ;GCCC_SOB_TYPE_DEFINITION                    ;57;C         
+OUC_ADMIN  ;GCCC_TASKS                                  ;132;C         
+OUC_ADMIN  ;GCCC_VIP_MOTIVES                            ;0;P         
+OUC_ADMIN  ;GCCC_WARNING                                ;61.732;B         
+OUC_ADMIN  ;GCCC_WARNING_ATTRIBUTES                     ;282.64;B         
+OUC_ADMIN  ;GCCC_WARNING_SRT_ATTR                       ;12;P         
+OUC_ADMIN  ;GCCC_WARNING_STATUS                         ;4;M         
+OUC_ADMIN  ;GCCC_WARNING_TYPE                           ;8;P         
+OUC_ADMIN  ;GCCC_WARNING_TYPE_ATTR                      ;18;P         
+OUC_ADMIN  ;GCCD_CUSTOMER_TOKEN                         ;0;B         
+OUC_ADMIN  ;GCCD_MLOPD                                  ;3;M         
+OUC_ADMIN  ;GCCD_RELATIONSHIP_LOPD                      ;0;B         
+OUC_ADMIN  ;GCCOM_ACCOUNT_BUNCHER                       ;638;B         
+OUC_ADMIN  ;GCCOM_ACCOUNT_DATA_BKP                      ;0;B         
+OUC_ADMIN  ;GCCOM_ADJUSTMENT_PARAM_BLOCKS               ;0;C         
+OUC_ADMIN  ;GCCOM_ADJUSTMENT_USAGE_UNITS                ;0;C         
+OUC_ADMIN  ;GCCOM_AGENCY                                ;15;C         
+OUC_ADMIN  ;GCCOM_AGENCY_TYPE                           ;2;M         
+OUC_ADMIN  ;GCCOM_AGGREGATOR_PLAN                       ;0;B         
+OUC_ADMIN  ;GCCOM_AL_ALERT                              ;72.282;B         
+OUC_ADMIN  ;GCCOM_AL_ALERT_RESPOSIBLE_NEWS              ;0;B         
+OUC_ADMIN  ;GCCOM_AL_ALERT_TYPE                         ;9;M         
+OUC_ADMIN  ;GCCOM_ANOM_BILL_TYPE                        ;2;M         
+OUC_ADMIN  ;GCCOM_ANOM_RESOLUTION_TYPE                  ;12;P         
+OUC_ADMIN  ;GCCOM_ANOMALOUS                             ;801.516;B         
+OUC_ADMIN  ;GCCOM_ANOMALOUS_HIST_STATUS                 ;13.109.025 ;B         
+OUC_ADMIN  ;GCCOM_ANOMALOUS_STATUS                      ;9;M         
+OUC_ADMIN  ;GCCOM_ANOMALY                               ;20;M         
+OUC_ADMIN  ;GCCOM_ANOMALY_PARAM                         ;139.422;C         
+OUC_ADMIN  ;GCCOM_ARRANGEMENT_OPTION_TYPE               ;0;C         
+OUC_ADMIN  ;GCCOM_ASSOC_CONCEPT_COMP                    ;42;C         
+OUC_ADMIN  ;GCCOM_ATTRIBUTES_TYPE                       ;3;M         
+OUC_ADMIN  ;GCCOM_AUTH_MASTER_TYPE                      ;9;M         
+OUC_ADMIN  ;GCCOM_AUTH_PARAMETER                        ;2;P         
+OUC_ADMIN  ;GCCOM_AUTH_PROCESS                          ;1;P         
+OUC_ADMIN  ;GCCOM_AUTH_RULE_PARAMETER                   ;14;M         
+OUC_ADMIN  ;GCCOM_AUTH_RULE_TYPE                        ;11;M         
+OUC_ADMIN  ;GCCOM_AUTHORITY_TYPE                        ;3;M         
+OUC_ADMIN  ;GCCOM_AUTHORIZATION                         ;0;B         
+OUC_ADMIN  ;GCCOM_AUTHORIZATION_BILL                    ;0;B         
+OUC_ADMIN  ;GCCOM_AUTHORIZATION_HIST                    ;0;B         
+OUC_ADMIN  ;GCCOM_AUTHORIZATION_LEVEL                   ;2;P         
+OUC_ADMIN  ;GCCOM_AUTHORIZATION_MOTIVE                  ;4;M         
+OUC_ADMIN  ;GCCOM_AUTHORIZATION_STATUS                  ;5;M         
+OUC_ADMIN  ;GCCOM_AUTHORIZATION_TYPE                    ;1;P         
+OUC_ADMIN  ;GCCOM_BALANCE_CONTROL_INPUT                 ;0;B         
+OUC_ADMIN  ;GCCOM_BALANCE_CONTROL_INTERVAL              ;0;B         
+OUC_ADMIN  ;GCCOM_BALANCE_CONTROL_OUTPUT                ;0;B         
+OUC_ADMIN  ;GCCOM_BALANCE_CONTROL_STATUS                ;2;M         
+OUC_ADMIN  ;GCCOM_BALANCE_CONTROL_USAGE                 ;0;B         
+OUC_ADMIN  ;GCCOM_BANKACCOUNT_TYPE                      ;2;M         
+OUC_ADMIN  ;GCCOM_BATCH_REBILL_BILL_NOTES               ;0;B         
+OUC_ADMIN  ;GCCOM_BENEF_UNIQUE_BILL                     ;0;B         
+OUC_ADMIN  ;GCCOM_BENEFICIARY                           ;3.922.802  ;B         
+OUC_ADMIN  ;GCCOM_BENEFIT                               ;16;C         
+OUC_ADMIN  ;GCCOM_BENEFIT_AG_PAYM_TYPE                  ;2;M         
+OUC_ADMIN  ;GCCOM_BENEFIT_APPL_MODE                     ;2;M         
+OUC_ADMIN  ;GCCOM_BENEFIT_CM                            ;0;B         
+OUC_ADMIN  ;GCCOM_BENEFIT_CM_PARAMETER                  ;0;B         
+OUC_ADMIN  ;GCCOM_BENEFIT_CONCEPT                       ;0;B         
+OUC_ADMIN  ;GCCOM_BENEFIT_DISCOUNT_CALC                 ;14.512.704 ;B         
+OUC_ADMIN  ;GCCOM_BENEFIT_DISCOUNT_TYPE                 ;2;M         
+OUC_ADMIN  ;GCCOM_BENEFIT_DOC                           ;0;B         
+OUC_ADMIN  ;GCCOM_BENEFIT_PARAM_BLOCKS                  ;0;B         
+OUC_ADMIN  ;GCCOM_BENEFIT_REFUND_TYPE                   ;2;M         
+OUC_ADMIN  ;GCCOM_BENEFIT_SCOPE                         ;3;M         
+OUC_ADMIN  ;GCCOM_BENEFIT_TYPE                          ;6;M         
+OUC_ADMIN  ;GCCOM_BILL_ANOMALY_COMPANY                  ;18;C         
+OUC_ADMIN  ;GCCOM_BILL_EXCEPTION_FIELD_ORD              ;56;B         
+OUC_ADMIN  ;GCCOM_BILL_EXP_DATE_TYPE                    ;3;M         
+OUC_ADMIN  ;GCCOM_BILL_MASTER_PRICES                    ;43.533.660 ;B         
+OUC_ADMIN  ;GCCOM_BILL_MASTER_PRICES                    ;43.533.661 ;B         
+OUC_ADMIN  ;GCCOM_BILL_MESSAGE                          ;0;P         
+OUC_ADMIN  ;GCCOM_BILL_MODEL_TYPE                       ;3;M         
+OUC_ADMIN  ;GCCOM_BILL_MSG_T_STATUS                     ;0;M         
+OUC_ADMIN  ;GCCOM_BILL_NETMET_CREDIT                    ;0;B         
+OUC_ADMIN  ;GCCOM_BILL_PERIODICITY_DETAIL               ;0;C         
+OUC_ADMIN  ;GCCOM_BILL_POWER_FACTOR                     ;0;B         
+OUC_ADMIN  ;GCCOM_BILL_SIMUL                            ;7.127.963  ;B         
+OUC_ADMIN  ;GCCOM_BILL_STATUS                           ;37;M         
+OUC_ADMIN  ;GCCOM_BILL_TYPE_GROUP                       ;0;P         
+OUC_ADMIN  ;GCCOM_BILLED_REG                            ;0;B         
+OUC_ADMIN  ;GCCOM_BILLED_REG_USAGE                      ;0;B         
+OUC_ADMIN  ;GCCOM_BILLED_USAGE                          ;19.932.220 ;B         
+OUC_ADMIN  ;GCCOM_BILLING_CONCEPT                       ;317.671.315;B         
+OUC_ADMIN  ;GCCOM_BILLING_CONCEPT                       ;317.671.316;B         
+OUC_ADMIN  ;GCCOM_BILLING_CONCEPT_DETAIL                ;318.905.451;B         
+OUC_ADMIN  ;GCCOM_BILLING_CONCEPT_SIMUL                 ;41.992.226 ;B         
+OUC_ADMIN  ;GCCOM_BILLING_CONCEPTDET_SIMUL              ;63.528.077 ;B         
+OUC_ADMIN  ;GCCOM_BILLING_CONCEPTDET_SIMUL              ;63.528.079 ;B         
+OUC_ADMIN  ;GCCOM_BILLING_PARAMETER                     ;10.510.819 ;B         
+OUC_ADMIN  ;GCCOM_BILLING_PERIOD_DETAIL                 ;0;C         
+OUC_ADMIN  ;GCCOM_BILLING_SERVICE_CORR                  ;4.041;B         
+OUC_ADMIN  ;GCCOM_BILLING_SERVICE_HIST                  ;20.333;B         
+OUC_ADMIN  ;GCCOM_BILLING_TRIGGER_RULE                  ;9;P         
+OUC_ADMIN  ;GCCOM_BILLING_TRIGGER_TYPE                  ;3;M         
+OUC_ADMIN  ;GCCOM_BILLING_TYPE                          ;10;M         
+OUC_ADMIN  ;GCCOM_BILLSTS_GROUP_DEF_TYPE                ;245;M         
+OUC_ADMIN  ;GCCOM_BILLSTS_GROUP_TYPE                    ;32;M         
+OUC_ADMIN  ;GCCOM_BILLSTS_GROUPING_TYPE                 ;8;M         
+OUC_ADMIN  ;GCCOM_BILLTYPE_CONCEPTTYPE                  ;39;M         
+OUC_ADMIN  ;GCCOM_BILLTYPE_CONTRACTTYPE                 ;276;P         
+OUC_ADMIN  ;GCCOM_BLOCK_TYPE                            ;5;M         
+OUC_ADMIN  ;GCCOM_BP_ACTIONS                            ;11;M         
+OUC_ADMIN  ;GCCOM_BP_DISTRIBUTION_AMOUNT                ;2.344.517  ;B         
+OUC_ADMIN  ;GCCOM_BP_MODIFICATION_MOTIVE                ;1;M         
+OUC_ADMIN  ;GCCOM_BP_QUOTA_STATUS                       ;5;M         
+OUC_ADMIN  ;GCCOM_BP_RENEWAL_TYPE                       ;2;M         
+OUC_ADMIN  ;GCCOM_BP_REVIEW_TYPE                        ;2;M         
+OUC_ADMIN  ;GCCOM_BP_STATUS                             ;9;M         
+OUC_ADMIN  ;GCCOM_BP_TRIGGER_TYPE                       ;2;M         
+OUC_ADMIN  ;GCCOM_BRANCH                                ;17;C         
+OUC_ADMIN  ;GCCOM_BUDGET_PLAN                           ;3.908.145  ;B         
+OUC_ADMIN  ;GCCOM_BUDGET_PLAN_BILLS                     ;2.098.174  ;B         
+OUC_ADMIN  ;GCCOM_BUDGET_PLAN_CS                        ;3.908.145  ;B         
+OUC_ADMIN  ;GCCOM_BUDGET_PLAN_HIST                      ;7.588.339  ;B         
+OUC_ADMIN  ;GCCOM_BUDGET_PLAN_MASTER                    ;1;M         
+OUC_ADMIN  ;GCCOM_BUDGET_PLAN_QUOTA                     ;3.908.526  ;B         
+OUC_ADMIN  ;GCCOM_BUNCHER_LOT                           ;0;B         
+OUC_ADMIN  ;GCCOM_BUNCHER_LOT_DETAIL                    ;0;B         
+OUC_ADMIN  ;GCCOM_BUSINESS_AUTHORIZATION                ;368;B         
+OUC_ADMIN  ;GCCOM_BUSINESS_VALIDATION                   ;57;M         
+OUC_ADMIN  ;GCCOM_CALCMOD_BLOCKTYPE                     ;89;M         
+OUC_ADMIN  ;GCCOM_CARD_TYPE                             ;5;M         
+OUC_ADMIN  ;GCCOM_CASE_STATUS                           ;3;M         
+OUC_ADMIN  ;GCCOM_CASE_TYPES                            ;0;B         
+OUC_ADMIN  ;GCCOM_CHARGE_PROCESSING_STATUS              ;7;M         
+OUC_ADMIN  ;GCCOM_CHARGE_USAGE_UNIT                     ;0;C         
+OUC_ADMIN  ;GCCOM_CHARGES_TOBILL                        ;107.612;B         
+OUC_ADMIN  ;GCCOM_COLLECTING_BY_CARD                    ;216;B         
+OUC_ADMIN  ;GCCOM_COLLECTION_BY_ACCOUNT                 ;0;B         
+OUC_ADMIN  ;GCCOM_COLLECTION_FORM_TYPE                  ;4;M         
+OUC_ADMIN  ;GCCOM_COMPANY_EXPLO_RELATION                ;0;P         
+OUC_ADMIN  ;GCCOM_CONCEPT_ASSOCCHARGETYPE               ;184;C         
+OUC_ADMIN  ;GCCOM_CONCEPT_CM                            ;335;C         
+OUC_ADMIN  ;GCCOM_CONCEPT_GROUP_TYPE                    ;26;M         
+OUC_ADMIN  ;GCCOM_CONCEPT_LPC                           ;0;P         
+OUC_ADMIN  ;GCCOM_CONCEPT_MAS_GROUP_DEF                 ;42;P         
+OUC_ADMIN  ;GCCOM_CONCEPT_TYPE                          ;28;M         
+OUC_ADMIN  ;GCCOM_CONCEPTS_MASTER_GROUP                 ;181;P         
+OUC_ADMIN  ;GCCOM_CONTACT                               ;0;B         
+OUC_ADMIN  ;GCCOM_CONTRACTED_BLOCK_PARAM                ;0;B         
+OUC_ADMIN  ;GCCOM_CONTRACTED_CM                         ;0;B         
+OUC_ADMIN  ;GCCOM_CONTRACTED_CM_PARAMETER               ;0;B         
+OUC_ADMIN  ;GCCOM_CONTRACTED_CONCEPT                    ;0;B         
+OUC_ADMIN  ;GCCOM_CONTRACTED_DEMAND                     ;4.675.815  ;B         
+OUC_ADMIN  ;GCCOM_CONTRACTED_DEMAND                     ;4.852.641  ;B         
+OUC_ADMIN  ;GCCOM_CS_COLL_FINANCE_ITEMS                 ;49.907;B         
+OUC_ADMIN  ;GCCOM_CS_FINANCE                            ;1.671;B         
+OUC_ADMIN  ;GCCOM_CS_FINANCE_ITEMS                      ;10.027;B         
+OUC_ADMIN  ;GCCOM_CS_FINANCE_ITEMS_STATUS               ;5;M         
+OUC_ADMIN  ;GCCOM_CS_FINANCE_STATUS                     ;6;M         
+OUC_ADMIN  ;GCCOM_DEFAULT_CM_PARAMETER                  ;244;C         
+OUC_ADMIN  ;GCCOM_DELIVNOTE_CONFIRMTYPE                 ;2;M         
+OUC_ADMIN  ;GCCOM_DEREG_BILLING_TYPE                    ;5;M         
+OUC_ADMIN  ;GCCOM_DETECT_ANOM_SIMUL                     ;1.301.224  ;B         
+OUC_ADMIN  ;GCCOM_DETECTED_ANOMALY                      ;841.81;B         
+OUC_ADMIN  ;GCCOM_DETECTION_VALUE                       ;64;C         
+OUC_ADMIN  ;GCCOM_DETECTION_VALUE_DESC                  ;17;M         
+OUC_ADMIN  ;GCCOM_DH                                    ;1;M         
+OUC_ADMIN  ;GCCOM_DH_COMPANY                            ;0;P         
+OUC_ADMIN  ;GCCOM_DH_CONSUMTYPE                         ;2;P         
+OUC_ADMIN  ;GCCOM_DIRECTION_TYPE                        ;0;M         
+OUC_ADMIN  ;GCCOM_DISPATCH_MODE                         ;5;M         
+OUC_ADMIN  ;GCCOM_DISPATCHFORCOLLECT_TYPE               ;4;M         
+OUC_ADMIN  ;GCCOM_DR_REQUEST                            ;0;B         
+OUC_ADMIN  ;GCCOM_DR_REQUEST_STATUS                     ;5;M         
+OUC_ADMIN  ;GCCOM_DR_REQUEST_TYPE                       ;1;M         
+OUC_ADMIN  ;GCCOM_EB_BILLING_INDICATOR                  ;4;P         
+OUC_ADMIN  ;GCCOM_EB_EQUIVALENCE_CODE                   ;13;M         
+OUC_ADMIN  ;GCCOM_EMISSION_DATE_TYPE                    ;0;M         
+OUC_ADMIN  ;GCCOM_ERRONEOUS_TAX_DISTRICT                ;0;B         
+OUC_ADMIN  ;GCCOM_ERRONEOUS_TAXDIST_TYPE                ;3;M         
+OUC_ADMIN  ;GCCOM_ETP                                   ;0;C         
+OUC_ADMIN  ;GCCOM_ETP_DROP_REASON                       ;0;P         
+OUC_ADMIN  ;GCCOM_EXCHANGE_RATE                         ;0;P         
+OUC_ADMIN  ;GCCOM_EXCLUSIVE_GROUP                       ;0;C         
+OUC_ADMIN  ;GCCOM_EXEMPT_CERTIFICATE_LEVEL              ;2;C         
+OUC_ADMIN  ;GCCOM_EXEMPT_CERTIFICATE_TYPE               ;1;C         
+OUC_ADMIN  ;GCCOM_EXEMPTION_CERT_RELATION               ;0;B         
+OUC_ADMIN  ;GCCOM_EXEMPTION_CERTIFICATE                 ;0;B         
+OUC_ADMIN  ;GCCOM_EXEMPTION_REASON                      ;5;P         
+OUC_ADMIN  ;GCCOM_EXPIRATION_DATE_TYPE                  ;8;M         
+OUC_ADMIN  ;GCCOM_EXTRACTION_STATUS                     ;0;M         
+OUC_ADMIN  ;GCCOM_FINANCED_BILLS                        ;66.461;B         
+OUC_ADMIN  ;GCCOM_FORM                                  ;0;P         
+OUC_ADMIN  ;GCCOM_GEN_XML_CLASS                         ;1;M         
+OUC_ADMIN  ;GCCOM_GENERABLE_BILL_TYPE                   ;34;M         
+OUC_ADMIN  ;GCCOM_GENERABLE_BILL_TYPE_GRP               ;0;M         
+OUC_ADMIN  ;GCCOM_HIST_CHARGE_LOT                       ;18;B         
+OUC_ADMIN  ;GCCOM_HIST_CHARGES_TOBILL                   ;180.24;B         
+OUC_ADMIN  ;GCCOM_HIST_STATUS_BILL                      ;109.518.617;B         
+OUC_ADMIN  ;GCCOM_HIST_STATUS_CONTR                     ;542.793;B         
+OUC_ADMIN  ;GCCOM_HIST_STATUS_CS                        ;544.89;B         
+OUC_ADMIN  ;GCCOM_IBOS_VERSION                          ;34;P         
+OUC_ADMIN  ;GCCOM_IBOS_VERSION_SQL                      ;0;P         
+OUC_ADMIN  ;GCCOM_INSURANCE_EXCH_RATE                   ;0;B         
+OUC_ADMIN  ;GCCOM_INTERVALS_ITEMSTOBILL                 ;0;B         
+OUC_ADMIN  ;GCCOM_INVISIBLE_LOSS_DATA                   ;0;B         
+OUC_ADMIN  ;GCCOM_ITEMS_TO_BILL                         ;49.682.615 ;B         
+OUC_ADMIN  ;GCCOM_ITEMS_TO_BILL_STATUS                  ;8;M         
+OUC_ADMIN  ;GCCOM_ITEMS_TO_BILL_XML                     ;49.689.654 ;B         
+OUC_ADMIN  ;GCCOM_ITEMS_TO_BOS                          ;0;B         
+OUC_ADMIN  ;GCCOM_LEVEL_ANOM_DEF_TYPE                   ;3;M         
+OUC_ADMIN  ;GCCOM_LOT_CHARGES_TOBILL                    ;18;B         
+OUC_ADMIN  ;GCCOM_MASTER_PRICES                         ;50;C         
+OUC_ADMIN  ;GCCOM_MASTER_PRICES_CLASS                   ;5;P         
+OUC_ADMIN  ;GCCOM_MASTER_PRICES_H                       ;178;C         
+OUC_ADMIN  ;GCCOM_MASTER_PRICES_TYPE                    ;7;P         
+OUC_ADMIN  ;GCCOM_MASTER_PRICES_VALUES                  ;205;C         
+OUC_ADMIN  ;GCCOM_MASTER_PRICES_VALUES_H                ;359;C         
+OUC_ADMIN  ;GCCOM_MOVEOUT_BILLING_TYPE                  ;8;M         
+OUC_ADMIN  ;GCCOM_NOTE                                  ;0;B         
+OUC_ADMIN  ;GCCOM_NOTICE_TMP                            ;24.473;B         
+OUC_ADMIN  ;GCCOM_NOTICE_TMP_STATUS                     ;4;M         
+OUC_ADMIN  ;GCCOM_OFFERED_SERV_FARE                     ;61;C         
+OUC_ADMIN  ;GCCOM_OFFERING_SET                          ;0;P         
+OUC_ADMIN  ;GCCOM_OFFICIAL_FARE                         ;0;P         
+OUC_ADMIN  ;GCCOM_OFFICIAL_FARE_REVIEW                  ;247;C         
+OUC_ADMIN  ;GCCOM_ONETIME_ASSOC_REFERENCE               ;157.924.961;B         
+OUC_ADMIN  ;GCCOM_ONETIME_CM_PARAMETER                  ;373;C         
+OUC_ADMIN  ;GCCOM_ONETIME_PARAMETERS_BLOCK              ;246;C         
+OUC_ADMIN  ;GCCOM_ONETIME_PERIOD                        ;367;C         
+OUC_ADMIN  ;GCCOM_ONETIME_RATE_AREA                     ;174;C         
+OUC_ADMIN  ;GCCOM_OPERATION_TYPE                        ;0;M         
+OUC_ADMIN  ;GCCOM_ORIGIN_MODULE                         ;32;M         
+OUC_ADMIN  ;GCCOM_PAPERWORK_PROCESS                     ;3;M         
+OUC_ADMIN  ;GCCOM_PAYMENT_FORM_TAX_TYPE                 ;2;M         
+OUC_ADMIN  ;GCCOM_PERIOD_DEFINITION                     ;0;P         
+OUC_ADMIN  ;GCCOM_PHASE                                 ;4;M         
+OUC_ADMIN  ;GCCOM_PR_BILL_VALUES                        ;0;B         
+OUC_ADMIN  ;GCCOM_PR_FLEX_ATTR                          ;69;C         
+OUC_ADMIN  ;GCCOM_PR_FLEX_ATTR_BLOCK                    ;585;C         
+OUC_ADMIN  ;GCCOM_PR_FLEX_ATTR_TREE                     ;2.783;C         
+OUC_ADMIN  ;GCCOM_PR_FLEX_ATTR_VALUE                    ;2.343;C         
+OUC_ADMIN  ;GCCOM_PR_FORMULA                            ;0;C         
+OUC_ADMIN  ;GCCOM_PR_FORMULA_H                          ;0;C         
+OUC_ADMIN  ;GCCOM_PR_FORMULA_PRICE                      ;0;C         
+OUC_ADMIN  ;GCCOM_PR_FORMULA_TIPOLOGY                   ;5;P         
+OUC_ADMIN  ;GCCOM_PR_FORMULA_VARIABLE                   ;0;C         
+OUC_ADMIN  ;GCCOM_PR_INDEX_DAILY                        ;0;C         
+OUC_ADMIN  ;GCCOM_PR_INDEX_FACTOR_TYPE                  ;3;M         
+OUC_ADMIN  ;GCCOM_PR_INDEX_FILES                        ;0;B         
+OUC_ADMIN  ;GCCOM_PR_INDEX_MONTHLY                      ;0;B         
+OUC_ADMIN  ;GCCOM_PR_INDEX_PERIOD                       ;3;M         
+OUC_ADMIN  ;GCCOM_PR_INDEX_TYPE                         ;2;P         
+OUC_ADMIN  ;GCCOM_PR_INDEX_WAREHOUSE                    ;19;C         
+OUC_ADMIN  ;GCCOM_PR_INDEX_WAREHOUSE_H                  ;11;C         
+OUC_ADMIN  ;GCCOM_PR_PRICE_FORMULA_ASSOC                ;4;M         
+OUC_ADMIN  ;GCCOM_PR_TYPES                              ;2;M         
+OUC_ADMIN  ;GCCOM_PR_VALUES                             ;0;C         
+OUC_ADMIN  ;GCCOM_PR_VALUES_MASTER_PRICES               ;0;B         
+OUC_ADMIN  ;GCCOM_PR_VALUES_VARIABLES                   ;0;B         
+OUC_ADMIN  ;GCCOM_PR_VAR_TYPES                          ;3;M         
+OUC_ADMIN  ;GCCOM_PR_VAR_VALUES                         ;0;C         
+OUC_ADMIN  ;GCCOM_PR_VARIABLES                          ;0;C         
+OUC_ADMIN  ;GCCOM_PR_VARIABLES_H                        ;0;P         
+OUC_ADMIN  ;GCCOM_PREPAYMENT_SYSTEM                     ;2;M         
+OUC_ADMIN  ;GCCOM_PRICE_REASONS_MODIF                   ;4;M         
+OUC_ADMIN  ;GCCOM_PRINT_FILE_CLASS                      ;0;M         
+OUC_ADMIN  ;GCCOM_PRINT_FORM_BILL                       ;58.979.129 ;B         
+OUC_ADMIN  ;GCCOM_PRINT_ONLINE_CLASS                    ;4;M         
+OUC_ADMIN  ;GCCOM_PRINT_TYPE                            ;3;M         
+OUC_ADMIN  ;GCCOM_PRIORITY_TYPE                         ;3;M         
+OUC_ADMIN  ;GCCOM_PROCESS_VALIDATION                    ;17;M         
+OUC_ADMIN  ;GCCOM_PROCESS_VALIDATION_TYPE               ;2;M         
+OUC_ADMIN  ;GCCOM_PROGRAM_INCOMPATIBLE                  ;0;B         
+OUC_ADMIN  ;GCCOM_PROGRAM_SUSCRIBER                     ;3.927.167  ;B         
+OUC_ADMIN  ;GCCOM_PROGRAM_TYPE                          ;12;M         
+OUC_ADMIN  ;GCCOM_PRORATE_TYPE                          ;4;M         
+OUC_ADMIN  ;GCCOM_RATE_ADJ_CM_PARAMETER                 ;39;C         
+OUC_ADMIN  ;GCCOM_RATE_ADJUSTMENT                       ;10;C         
+OUC_ADMIN  ;GCCOM_RATE_ADJUSTMENT_CM                    ;36;C         
+OUC_ADMIN  ;GCCOM_RATE_ADJUSTMENT_CONCEPT               ;36;C         
+OUC_ADMIN  ;GCCOM_RATE_ADJUSTMENT_PERIOD                ;10;C         
+OUC_ADMIN  ;GCCOM_RATE_ADJUSTMENT_RATES                 ;200;C         
+OUC_ADMIN  ;GCCOM_RATE_ADJUSTMENT_TYPE                  ;5;M         
+OUC_ADMIN  ;GCCOM_RATE_AREA                             ;1;C         
+OUC_ADMIN  ;GCCOM_RATE_AREA_CITIES                      ;1.134;C         
+OUC_ADMIN  ;GCCOM_RATE_AREA_SECTORS                     ;3;C         
+OUC_ADMIN  ;GCCOM_RATE_ATTRIBUTES                       ;404;C         
+OUC_ADMIN  ;GCCOM_RATE_BILLING_CLASS                    ;137;C         
+OUC_ADMIN  ;GCCOM_READINGS_ITEMSTOBILL                  ;22.180.151 ;B         
+OUC_ADMIN  ;GCCOM_REASON_GROUP_TYPE                     ;3;M         
+OUC_ADMIN  ;GCCOM_REASON_TYPE                           ;10;M         
+OUC_ADMIN  ;GCCOM_REB_ACTIVITY_INFORMATION              ;62.788;B         
+OUC_ADMIN  ;GCCOM_REB_ACTIVITY_STATUS                   ;4;M         
+OUC_ADMIN  ;GCCOM_REB_ACTIVITY_TYPE                     ;5;M         
+OUC_ADMIN  ;GCCOM_REB_DELIVERY_NOTE_STATUS              ;9;M         
+OUC_ADMIN  ;GCCOM_REB_REASON_TYPE                       ;11;P         
+OUC_ADMIN  ;GCCOM_REB_STATUS_HISTORY                    ;162.098;B         
+OUC_ADMIN  ;GCCOM_REBILLING_ACTIVITY                    ;22.516;B         
+OUC_ADMIN  ;GCCOM_REBILLING_COMMENTS                    ;12.37;B         
+OUC_ADMIN  ;GCCOM_RECL_REBILLED_BILL                    ;24.078;B         
+OUC_ADMIN  ;GCCOM_RESOLUTION_TYPE                       ;4;M         
+OUC_ADMIN  ;GCCOM_REVENUE_CODE                          ;1;P         
+OUC_ADMIN  ;GCCOM_ROUNDING_TYPE                         ;5;M         
+OUC_ADMIN  ;GCCOM_SB_CONCEPT_DETAIL                     ;420;B         
+OUC_ADMIN  ;GCCOM_SB_CONCEPTS                           ;162;B         
+OUC_ADMIN  ;GCCOM_SCRIPTING                             ;2;C         
+OUC_ADMIN  ;GCCOM_SCRIPTING_GROUP                       ;7;M         
+OUC_ADMIN  ;GCCOM_SEASON                                ;0;C         
+OUC_ADMIN  ;GCCOM_SEASON_OTCCHARGE_SS                   ;0;B         
+OUC_ADMIN  ;GCCOM_SEASON_TYPE                           ;0;P         
+OUC_ADMIN  ;GCCOM_SEASONAL_ZONE                         ;0;P         
+OUC_ADMIN  ;GCCOM_SEASONALITY_PERIOD                    ;0;C         
+OUC_ADMIN  ;GCCOM_SECTORSUPPLY_RATEAREAS                ;537.146;B         
+OUC_ADMIN  ;GCCOM_SEND_SERVICE_CONF                     ;10;P         
+OUC_ADMIN  ;GCCOM_SERVREQ_CANCEL                        ;4;M         
+OUC_ADMIN  ;GCCOM_SERVREQ_ECONOMICAL                    ;4.197;B         
+OUC_ADMIN  ;GCCOM_SERVREQ_MOTIVE                        ;0;P         
+OUC_ADMIN  ;GCCOM_SERVREQ_PAPERWORK                     ;6;C         
+OUC_ADMIN  ;GCCOM_SERVREQ_SECTOR                        ;6.135;B         
+OUC_ADMIN  ;GCCOM_SERVREQUEST_STATUS                    ;22;M         
+OUC_ADMIN  ;GCCOM_SOCIAL_ACCOUNT                        ;0;B         
+OUC_ADMIN  ;GCCOM_SOCIAL_CASE                           ;0;B         
+OUC_ADMIN  ;GCCOM_SOCIAL_CASE_TYPE                      ;12;M         
+OUC_ADMIN  ;GCCOM_SOCIAL_TYPE                           ;4;M         
+OUC_ADMIN  ;GCCOM_SPREAD_BILLING                        ;6;B         
+OUC_ADMIN  ;GCCOM_SPREAD_BILLING_GLOBAL                 ;16;B         
+OUC_ADMIN  ;GCCOM_SPREAD_BILLING_PERIOD                 ;32;B         
+OUC_ADMIN  ;GCCOM_SPREAD_BILLING_USAGE                  ;9;B         
+OUC_ADMIN  ;GCCOM_STATEMENT_GENERATE_TYPE               ;3;M         
+OUC_ADMIN  ;GCCOM_SUBDIST_TAXDIST                       ;1.134;C         
+OUC_ADMIN  ;GCCOM_SUBDISTRICT                           ;1.134;C         
+OUC_ADMIN  ;GCCOM_SUBDISTRICT_TYPE                      ;8;C         
+OUC_ADMIN  ;GCCOM_SUPPLY_POTENTIAL                      ;0;B         
+OUC_ADMIN  ;GCCOM_SUPPLY_POTENTIAL_STATUS               ;4;M         
+OUC_ADMIN  ;GCCOM_SUPPLY_POTENTIAL_TYPE                 ;4;M         
+OUC_ADMIN  ;GCCOM_SUPPLY_SUBDISTRICT                    ;530.263;B         
+OUC_ADMIN  ;GCCOM_SUPPLY_TAXDIST                        ;537.4;B         
+OUC_ADMIN  ;GCCOM_TABLES_COLUMNS_TO_BOS                 ;2.239;M         
+OUC_ADMIN  ;GCCOM_TABLES_TO_BOS                         ;137;M         
+OUC_ADMIN  ;GCCOM_TAX                                   ;3;C         
+OUC_ADMIN  ;GCCOM_TAX_BILLINGCONCEPT                    ;96.491.145 ;B         
+OUC_ADMIN  ;GCCOM_TAX_CM_PARAMETER                      ;9;C         
+OUC_ADMIN  ;GCCOM_TAX_DISTRICT                          ;1.134;C         
+OUC_ADMIN  ;GCCOM_TAX_GEOENTITY                         ;3;C         
+OUC_ADMIN  ;GCCOM_TAX_LEVEL                             ;5;M         
+OUC_ADMIN  ;GCCOM_TAX_ON_TAXES                          ;0;C         
+OUC_ADMIN  ;GCCOM_TAX_PARAMETERS_BLOCK                  ;3;C         
+OUC_ADMIN  ;GCCOM_TAX_PERIOD                            ;3;C         
+OUC_ADMIN  ;GCCOM_TAX_TYPE                              ;2;M         
+OUC_ADMIN  ;GCCOM_TAX_USAGE_UNITS                       ;0;C         
+OUC_ADMIN  ;GCCOM_TAX_UTIL_TYPE_RELATION                ;3;C         
+OUC_ADMIN  ;GCCOM_TAX_UTILITY_TYPE                      ;3;C         
+OUC_ADMIN  ;GCCOM_TAX_UTILITY_TYPE_GROUP                ;3;C         
+OUC_ADMIN  ;GCCOM_TAXDIST_TYPE                          ;2;M         
+OUC_ADMIN  ;GCCOM_TAXDISTRICT_TAXES                     ;3.387;C         
+OUC_ADMIN  ;GCCOM_TAXED_EXEMP_RELATION                  ;3;C         
+OUC_ADMIN  ;GCCOM_TAXEXEMPTION_STATUS                   ;3;M         
+OUC_ADMIN  ;GCCOM_TRANSMISSION_SCHED                    ;0;P         
+OUC_ADMIN  ;GCCOM_TYPE_GROUP_CONCEPT_RE                 ;76;M         
+OUC_ADMIN  ;GCCOM_TYPE_GROUP_SEGMENT_RE                 ;12;M         
+OUC_ADMIN  ;GCCOM_UNIFICATION_MOTIVES                   ;1;P         
+OUC_ADMIN  ;GCCOM_USAGES_ITEMSTOBILL                    ;0;B         
+OUC_ADMIN  ;GCCOM_WAIVED_REASON                         ;3;P         
+OUC_ADMIN  ;GCCOM_WORKFLOW_SEGMENT                      ;0;P         
+OUC_ADMIN  ;GCGE_AD_POSTAL_OFFICE                       ;16;P         
+OUC_ADMIN  ;GCGE_CONTROLLER_TYPE                        ;96;M         
+OUC_ADMIN  ;GCGE_IGEA_INCMS                             ;0;B         
+OUC_ADMIN  ;GCGE_MASTER_TYPE                            ;77;M         
+OUC_ADMIN  ;GCGE_PANEL                                  ;130;M         
+OUC_ADMIN  ;GCGE_PANEL_TYPE                             ;95;M         
+OUC_ADMIN  ;GCGE_TEMPLATE                               ;0;M         
+OUC_ADMIN  ;GCGT_CA_ACTION_ARGUMENT                     ;33;C         
+OUC_ADMIN  ;GCGT_CA_ACTION_ARGUMENT_VALUE               ;12.024;B         
+OUC_ADMIN  ;GCGT_CA_ACTION_SEG_TYPE                     ;17;M         
+OUC_ADMIN  ;GCGT_CA_ACTION_TYPE                         ;11;M         
+OUC_ADMIN  ;GCGT_CA_ATTRIBUTE                           ;141;C         
+OUC_ADMIN  ;GCGT_CA_ATTRIBUTE_VALUE                     ;9;B         
+OUC_ADMIN  ;GCGT_CA_CAMPAIGN                            ;3.797;B         
+OUC_ADMIN  ;GCGT_CA_CAMPAIGN_HISTORIC                   ;7.65;B         
+OUC_ADMIN  ;GCGT_CA_CAMPAIGN_STATUS                     ;4;M         
+OUC_ADMIN  ;GCGT_CA_CAMPAIGN_TYPE                       ;6;M         
+OUC_ADMIN  ;GCGT_CA_COMMUNICATION                       ;1;P         
+OUC_ADMIN  ;GCGT_CA_CONDITION                           ;9;B         
+OUC_ADMIN  ;GCGT_CA_FIELD_FORMAT                        ;6;M         
+OUC_ADMIN  ;GCGT_CA_OBJECT_SEG_TYPE                     ;22;M         
+OUC_ADMIN  ;GCGT_CA_OBJECT_TYPE                         ;16;M         
+OUC_ADMIN  ;GCGT_CA_OBJECTIVE_PUBLIC                    ;3.482.233  ;B         
+OUC_ADMIN  ;GCGT_CA_OBJPUBLIC_STATUS                    ;6;M         
+OUC_ADMIN  ;GCGT_CA_OPERATOR_TYPE                       ;6;M         
+OUC_ADMIN  ;GCGT_CA_QUERY_AUX                           ;110;M         
+OUC_ADMIN  ;GCGT_CA_REL_OPERATOR_ATTRIBUTE              ;348;C         
+OUC_ADMIN  ;GCGT_CA_SEG_ACTION                          ;2.510.371  ;B         
+OUC_ADMIN  ;GCGT_CA_SEG_OBJ_PUBLIC                      ;20;B         
+OUC_ADMIN  ;GCGT_CA_SEGMENT                             ;3.998;B         
+OUC_ADMIN  ;GCGT_CA_SEGMENT_CAMP_TYPE                   ;10;M         
+OUC_ADMIN  ;GCGT_CA_SEGMENT_HISTORIC                    ;13.089;B         
+OUC_ADMIN  ;GCGT_CA_SEGMENT_STATUS                      ;6;M         
+OUC_ADMIN  ;GCGT_CA_SEGMENT_TYPE                        ;7;M         
+OUC_ADMIN  ;GCGT_CONTRACTOR                             ;0;P         
+OUC_ADMIN  ;GCGT_GAS_DIST_AREA                          ;1;C         
+OUC_ADMIN  ;GCGT_GAS_DIST_AREA_ATTRIBUTES               ;1;C         
+OUC_ADMIN  ;GCGT_GAS_DIST_AREA_GEO_ENT                  ;1.129;C         
+OUC_ADMIN  ;GCGT_GT_DOCUMENT                            ;0;P         
+OUC_ADMIN  ;GCGT_GT_LETTERS                             ;0;M         
+OUC_ADMIN  ;GCGT_GT_LETTERS_MARKUP                      ;0;M         
+OUC_ADMIN  ;GCGT_GT_MAINTENANCE                         ;0;M         
+OUC_ADMIN  ;GCGT_GT_MOD_LETTERS                         ;0;P         
+OUC_ADMIN  ;GCGT_GT_MTCE_MODULE                         ;0;M         
+OUC_ADMIN  ;GCGT_GT_WO_TYPE_SGC                         ;0;M         
+OUC_ADMIN    ;GCGT_GT_XML_ITF                             ;0;P         
+OUC_ADMIN    ;GCGT_IR_ACTIVITY_ORIGIN                     ;0;B         
+OUC_ADMIN    ;GCGT_IR_ATTRIBUTES                          ;1.553;B         
+OUC_ADMIN    ;GCGT_IR_BILLING_TYPE                        ;2;M         
+OUC_ADMIN    ;GCGT_IR_COMMENT                             ;0;B         
+OUC_ADMIN    ;GCGT_IR_IRREGULARITY                        ;186;B         
+OUC_ADMIN    ;GCGT_IR_LIST_REVIEW                         ;0;B         
+OUC_ADMIN    ;GCGT_IR_ORIGIN_TYPE                         ;16;P         
+OUC_ADMIN    ;GCGT_IR_QUALIFICATION                       ;186;B         
+OUC_ADMIN    ;GCGT_IR_QUALIFICATION_TYPE                  ;6;P         
+OUC_ADMIN    ;GCGT_IR_QUANTIFY                            ;0;B         
+OUC_ADMIN    ;GCGT_IR_QUANTIFY_CONCEPTS                   ;0;B         
+OUC_ADMIN    ;GCGT_IR_QUANTIFY_CONSUM                     ;0;B         
+OUC_ADMIN    ;GCGT_IR_QUANTIFY_TYPE                       ;3;M         
+OUC_ADMIN    ;GCGT_IR_RESPONSIBLE                         ;186;B         
+OUC_ADMIN    ;GCGT_IR_REVIEW                              ;0;B         
+OUC_ADMIN    ;GCGT_IR_SECTOR_SUPPLY                       ;186;B         
+OUC_ADMIN    ;GCGT_IR_STATE_REVIEW                        ;4;M         
+OUC_ADMIN    ;GCGT_IR_STATUS                              ;10;M         
+OUC_ADMIN    ;GCGT_IR_STATUS_LIST                         ;543;B         
+OUC_ADMIN    ;GCGT_IR_TYPE                                ;3;P         
+OUC_ADMIN    ;GCGT_ME_INTENSITY                           ;22;P         
+OUC_ADMIN    ;GCGT_NS_APPLIANCES                          ;0;P         
+OUC_ADMIN    ;GCGT_NS_ATTRIBUTES                          ;9.816;B         
+OUC_ADMIN    ;GCGT_NS_BUDGET_CONCEPTS                     ;4.73;B         
+OUC_ADMIN    ;GCGT_NS_BUDGET_MATERIAL                     ;3.075;B         
+OUC_ADMIN    ;GCGT_NS_BUDGET_PAPERWORK                    ;0;B         
+OUC_ADMIN    ;GCGT_NS_BUDGET_REBATES                      ;0;B         
+OUC_ADMIN    ;GCGT_NS_BUILDING_WORK_TYPE                  ;3;P         
+OUC_ADMIN    ;GCGT_NS_CONTRACT_DATA                       ;0;B         
+OUC_ADMIN    ;GCGT_NS_EVAL_CONCEPT_DETAIL                 ;0;P         
+OUC_ADMIN    ;GCGT_NS_EVAL_DATA_DETAIL                    ;0;P         
+OUC_ADMIN    ;GCGT_NS_EVALUATION                          ;0;B         
+OUC_ADMIN    ;GCGT_NS_EVALUATION_CONCEPT                  ;0;M         
+OUC_ADMIN    ;GCGT_NS_EVALUATION_DATA                     ;0;M         
+OUC_ADMIN    ;GCGT_NS_EVALUATION_STATUS                   ;8;M         
+OUC_ADMIN    ;GCGT_NS_LINK_TYPE                           ;0;P         
+OUC_ADMIN    ;GCGT_NS_MODE_WR                             ;2;M         
+OUC_ADMIN    ;GCGT_NS_NEGOTIATION                         ;0;B         
+OUC_ADMIN    ;GCGT_NS_NOTE_TYPE                           ;0;M         
+OUC_ADMIN    ;GCGT_NS_NOTES                               ;0;B         
+OUC_ADMIN    ;GCGT_NS_PAYMENT_AGREEMENT                   ;5;B         
+OUC_ADMIN    ;GCGT_NS_PAYMENT_TYPE                        ;2;P         
+OUC_ADMIN    ;GCGT_NS_POTENTIAL_CUSTOMER                  ;0;B         
+OUC_ADMIN    ;GCGT_NS_REF_TYPE_NOTE                       ;0;M         
+OUC_ADMIN    ;GCGT_NS_REFERENCE_NOTE                      ;0;B         
+OUC_ADMIN    ;GCGT_NS_REQUEST_BUDGET                      ;558;B         
+OUC_ADMIN    ;GCGT_NS_REQUEST_BUDGET_TYPE                 ;3;P         
+OUC_ADMIN    ;GCGT_NS_REQUEST_BUILDING                    ;0;B         
+OUC_ADMIN    ;GCGT_NS_REQUEST_CUSTOMER                    ;5.724;B         
+OUC_ADMIN    ;GCGT_NS_REQUEST_CUSTOMER_TYPE               ;2;P         
+OUC_ADMIN    ;GCGT_NS_REQUEST_SUPPLY                      ;3.217;B         
+OUC_ADMIN    ;GCGT_NS_RQC_APPLIANCES                      ;0;B         
+OUC_ADMIN    ;GCGT_NS_SECTOR_APPLIANCES                   ;3;P         
+OUC_ADMIN    ;GCGT_NS_SECTOR_ATTRIBUTES                   ;45;P         
+OUC_ADMIN    ;GCGT_NS_STATUS                              ;28;M         
+OUC_ADMIN    ;GCGT_NS_STATUS_GROUP                        ;1;M         
+OUC_ADMIN    ;GCGT_NS_STATUS_GROUP_JOIN                   ;6;P         
+OUC_ADMIN    ;GCGT_NS_TYPE                                ;9;C         
+OUC_ADMIN    ;GCGT_NS_TYPE_ATTRIBUTES                     ;72;P         
+OUC_ADMIN    ;GCGT_NS_TYPE_WR_SECTOR                      ;0;C         
+OUC_ADMIN    ;GCGT_NS_WORK_REQUEST                        ;721;B         
+OUC_ADMIN    ;GCGT_NS_WORKS_TYPE                          ;0;M         
+OUC_ADMIN    ;GCGT_NS_WR_ATTRIBUTE                        ;6.237;B         
+OUC_ADMIN    ;GCGT_NS_WR_PREMISE                          ;0;B         
+OUC_ADMIN    ;GCGT_OC_ATTRIBUTE_GROUP                     ;67;C         
+OUC_ADMIN    ;GCGT_OC_COMPLEXITY                          ;0;C         
+OUC_ADMIN    ;GCGT_OC_COMPLEXITY_GROUPS                   ;67;C         
+OUC_ADMIN    ;GCGT_OC_COMPLEXITY_TYPE                     ;8;C         
+OUC_ADMIN    ;GCGT_OMS_PERSONNEL                          ;0;P         
+OUC_ADMIN    ;GCGT_RE_CY_STA_GRO_CY_STA                   ;0;P         
+OUC_ADMIN    ;GCGT_RE_CYCLE                               ;42.68;B         
+OUC_ADMIN    ;GCGT_RE_CYCLE_GROUP_CYCLE                   ;0;P         
+OUC_ADMIN    ;GCGT_RE_CYCLE_STATUS                        ;6;M         
+OUC_ADMIN    ;GCGT_RE_CYCLE_STATUS_GROUP                  ;3;M         
+OUC_ADMIN    ;GCGT_RE_CYCLE_TYPE                          ;5;M         
+OUC_ADMIN    ;GCGT_RE_CYCLE_TYPE_GROUP                    ;2;M         
+OUC_ADMIN    ;GCGT_RE_FINDINGS                            ;178;B         
+OUC_ADMIN    ;GCGT_RE_FINDINGS_TYPE                       ;3;M         
+OUC_ADMIN    ;GCGT_RE_HHT                                 ;192;C         
+OUC_ADMIN    ;GCGT_RE_HHT_MODEL                           ;2;P         
+OUC_ADMIN    ;GCGT_RE_HHT_STATUS                          ;2;M         
+OUC_ADMIN    ;GCGT_RE_LOAD_CURVE_DATA                     ;0;B         
+OUC_ADMIN    ;GCGT_RE_LOAD_CURVE_INTERVAL                 ;0;B         
+OUC_ADMIN    ;GCGT_RE_MP_LINE_CODE                        ;2;M         
+OUC_ADMIN    ;GCGT_RE_MP_LINECODE_GEOENTITY               ;0;C         
+OUC_ADMIN    ;GCGT_RE_MP_ROUTE_LETTER                     ;0;B         
+OUC_ADMIN    ;GCGT_RE_NETMET_CREDIT                       ;0;B         
+OUC_ADMIN    ;GCGT_RE_NETMET_CREDIT_DETAIL                ;0;B         
+OUC_ADMIN    ;GCGT_RE_NETMET_CREDIT_HIST                  ;0;B         
+OUC_ADMIN    ;GCGT_RE_NETMET_CREDIT_READING               ;0;B         
+OUC_ADMIN    ;GCGT_RE_NETMET_CREDIT_STATUS                ;5;M         
+OUC_ADMIN    ;GCGT_RE_PENDING_LOCATION_STATE              ;0;M         
+OUC_ADMIN    ;GCGT_RE_ROUTE_XML                           ;0;B         
+OUC_ADMIN    ;GCGT_SETTLEMENT_AREA                        ;0;P         
+OUC_ADMIN    ;GCGT_WF_ACT_PROCESS_NAME                    ;177;M         
+OUC_ADMIN    ;GCGT_WF_ACT_PROCESS_TYPE                    ;3;M         
+OUC_ADMIN    ;GCGT_WF_ACTION                              ;177;C         
+OUC_ADMIN    ;GCGT_WF_ACTION_ASOC                         ;0;C         
+OUC_ADMIN    ;GCGT_WF_ACTION_ASOC_TIME                    ;0;C         
+OUC_ADMIN    ;GCGT_WF_ACTION_ASOC_TYPE                    ;2;M         
+OUC_ADMIN    ;GCGT_WF_ACTION_CHANGE_STEP                  ;0;C         
+OUC_ADMIN    ;GCGT_WF_ACTION_COM                          ;0;C         
+OUC_ADMIN    ;GCGT_WF_ACTION_DOC                          ;0;C         
+OUC_ADMIN    ;GCGT_WF_ACTION_STATUS                       ;4;M         
+OUC_ADMIN    ;GCGT_WF_ACTION_TYPE                         ;4;M         
+OUC_ADMIN    ;GCGT_WF_ACTION_WO                           ;0;C         
+OUC_ADMIN    ;GCGT_WF_ACTION_WO_SGC                       ;0;C         
+OUC_ADMIN    ;GCGT_WF_ALERT_PROCESS                       ;0;B         
+OUC_ADMIN    ;GCGT_WF_CACTIVITY                           ;1.428.651  ;B         
+OUC_ADMIN    ;GCGT_WF_CHANGE_STATUS                       ;2;M         
+OUC_ADMIN    ;GCGT_WF_CHANGE_STEP                         ;1.068.556  ;B         
+OUC_ADMIN    ;GCGT_WF_CHANGE_STEP_MODULE                  ;81;P         
+OUC_ADMIN    ;GCGT_WF_DOC_TYPE                            ;1;C         
+OUC_ADMIN    ;GCGT_WF_ENTITY_RESPONSIBLE                  ;559.299;B         
+OUC_ADMIN    ;GCGT_WF_ENTITY_SUBTYPE                      ;5;P         
+OUC_ADMIN    ;GCGT_WF_HACTIVITY                           ;0;B         
+OUC_ADMIN    ;GCGT_WF_LETTER_PROCESS                      ;492;C         
+OUC_ADMIN    ;GCGT_WF_MAINTENANCE                         ;12;C         
+OUC_ADMIN    ;GCGT_WF_MODEL_ASOC                          ;236;C         
+OUC_ADMIN    ;GCGT_WF_MODULE                              ;6;M         
+OUC_ADMIN    ;GCGT_WF_PACTIVITY                           ;3.435.808  ;B         
+OUC_ADMIN    ;GCGT_WF_PERIOD                              ;4;C         
+OUC_ADMIN    ;GCGT_WF_PERIOD_CANCEL_STEP                  ;4;C         
+OUC_ADMIN    ;GCGT_WF_PERIOD_STOP                         ;0;B         
+OUC_ADMIN    ;GCGT_WF_RECEIVERS                           ;2;M         
+OUC_ADMIN    ;GCGT_WF_SELECT_CRIT_WF                      ;6;C         
+OUC_ADMIN    ;GCGT_WF_SELECTION_CRITERIA                  ;7;C         
+OUC_ADMIN    ;GCGT_WF_STEP                                ;162;C         
+OUC_ADMIN    ;GCGT_WF_STEP_ACTION                         ;1.523;C         
+OUC_ADMIN    ;GCGT_WF_STEP_GRAPH                          ;118;C         
+OUC_ADMIN    ;GCGT_WF_STEP_GRAPH_CONF                     ;948;C         
+OUC_ADMIN    ;GCGT_WF_STEP_GROUP                          ;1;M         
+OUC_ADMIN    ;GCGT_WF_STEP_MODEL                          ;1.209;C         
+OUC_ADMIN    ;GCGT_WF_STEP_STATUS                         ;4;M         
+OUC_ADMIN    ;GCGT_WF_VALIDATION_TYPE                     ;6;M         
+OUC_ADMIN    ;GCKPI_INTER                                 ;0;C         
+OUC_ADMIN    ;GCKPI_QUERIES                               ;255;C         
+OUC_ADMIN    ;GCKPI_RESULTS                               ;0;B         
+OUC_ADMIN    ;GCKPI_RESULTS_HIST                          ;0;B         
+OUC_ADMIN    ;GCOHS_HELP_DIR                              ;0;M         
+OUC_ADMIN    ;GCPR_APP                                    ;2;B         
+OUC_ADMIN    ;GCPR_APP_ACTIVITY                           ;4;B         
+OUC_ADMIN    ;GCPR_APP_ACTIVITY_NOTICE                    ;6.415;B         
+OUC_ADMIN    ;GCPR_APP_ACTIVITY_STATUS                    ;4;M         
+OUC_ADMIN    ;GCPR_APP_ACTIVITY_TYPE                      ;2;M         
+OUC_ADMIN    ;GCPR_APP_NO_DELIVER_MOTIVE                  ;2;M         
+OUC_ADMIN    ;GCPR_APP_USER_RELATION                      ;3;B         
+OUC_ADMIN    ;GCPR_APP_USERS                              ;106;B         
+OUC_ADMIN    ;GCPR_DUE_DATE_CHANGE_MOTIVE                 ;1;P         
+OUC_ADMIN    ;GCPR_LOT_CHANGE_STATUS_CONF                 ;24;P         
+OUC_ADMIN    ;GCPR_LOT_EVENT_LETTERS_HIST                 ;42;B         
+OUC_ADMIN    ;GCPR_LOT_NOTICE_COMP_HIST                   ;157.781;B         
+OUC_ADMIN    ;GCPR_PRINTING_LOT                           ;7.283;B         
+OUC_ADMIN    ;GCPR_PRINTING_LOT_HDUEDATE                  ;0;B         
+OUC_ADMIN    ;GCPR_PRINTING_LOT_HSTATUS                   ;7.293;B         
+OUC_ADMIN    ;GCPR_PRINTING_LOT_STATUS                    ;11;M         
+OUC_ADMIN    ;GRCMP_MESSAGE                               ;0;B         
+OUC_ADMIN    ;GRCMP_MESSAGE_ATTACH                        ;0;B         
+OUC_ADMIN    ;GRCMP_MESSAGE_STATUS                        ;13;M         
+OUC_ARQ_ADMIN;GCAUDIT_CHANGE                              ;10.445;B         
+OUC_ARQ_ADMIN;GCAUDIT_TABLE_FIELD                         ;3;B         
+OUC_ARQ_ADMIN;GCBATCH_LAUNCHCOND                          ;0;B         
+OUC_ARQ_ADMIN;GCBATCH_PROCESS_MASTER                      ;106;C         
+OUC_ARQ_ADMIN;GCBT_PROCESS_STATISTIC                      ;232.942;B         
+OUC_ARQ_ADMIN;GCBT_PROCESS_STATISTIC_ERRORS               ;16.511.018 ;B         
+OUC_ARQ_ADMIN;GCCC_RM_HISTORIC                            ;0;B         
+OUC_ARQ_ADMIN;GCCC_RM_REPORTS                             ;13;M         
+OUC_ARQ_ADMIN;GCCC_RM_STATUS                              ;13;M         
+OUC_ARQ_ADMIN;GCCOM_RM_BATCH_REPORT                       ;0;B         
+OUC_ARQ_ADMIN;GCCOM_RM_REPORT_TYPE                        ;4;M         
+OUC_ARQ_ADMIN;GCCOM_RM_TASK_ATTRIB_REQUEST                ;39;M         
+OUC_ARQ_ADMIN;GCCOM_RM_TASK_ATTRIB_RESULT                 ;550;M         
+OUC_ARQ_ADMIN;GCCOM_RM_TASK_HIST_DETAIL                   ;77.627;B         
+OUC_ARQ_ADMIN;GCCOM_RM_TASK_HISTORIC                      ;3.332;B         
+OUC_ARQ_ADMIN;GCGC_ENTITY_TYPE                            ;74;M         
+OUC_ARQ_ADMIN;GCGC_LOCK                                   ;1;B         
+OUC_ARQ_ADMIN;GCKE_SEQUENCE                               ;1.366;M         
+OUC_ARQ_ADMIN;GCLG_LOG                                    ;509.983;B         
+OUC_ARQ_ADMIN;GCLG_LOG_CODE                               ;493;M         
+OUC_ARQ_ADMIN;GCLG_LOG_DETAIL                             ;33.380.287 ;B         
+OUC_ARQ_ADMIN;GCLG_LOG_LEVEL                              ;4;M         
+OUC_ARQ_ADMIN;GCLG_LOG_TYPE                               ;166;M         
+OUC_ARQ_ADMIN;GCLK_LOCK                                   ;448.2;B         
+OUC_ARQ_ADMIN;GCLK_LOCK_HIST                              ;24.342.803 ;B         
+OUC_ARQ_ADMIN;GCLK_LOCK_REASON                            ;64;M         
+OUC_ARQ_ADMIN;GCLK_LOCK_TYPE                              ;18;M         
+OUC_ARQ_ADMIN;GCLK_LOCKABLE_ENTITY                        ;7;M         
+OUC_ARQ_ADMIN;GCMSG_ENTITY_TOKEN_REGIST                   ;143.046;B         
+OUC_ARQ_ADMIN;GCMSG_STATUS_TYPE                           ;2;M         
+OUC_ARQ_ADMIN;GCNS_NAVIGATION                             ;24;C         
+OUC_ARQ_ADMIN;GCNS_NAVIGATION_TYPE                        ;2;M         
+OUC_ARQ_ADMIN;GCOFF_EXEC_VARIANT                          ;7.389;B         
+OUC_ARQ_ADMIN;GCOFF_EXEC_VARIANT_BACKUP                   ;0;B         
+OUC_ARQ_ADMIN;GCOFF_EXECUTION_STATUS                      ;10;M         
+OUC_ARQ_ADMIN;GCOFF_EXECUTION_TYPE                        ;3;M         
+OUC_ARQ_ADMIN;GCOFF_SCHEDULE_STATUS                       ;3;M         
+OUC_ARQ_ADMIN;GCOFF_TASK                                  ;521.682;B         
+OUC_ARQ_ADMIN;GCOFF_TASK_BACKUP                           ;0;B         
+OUC_ARQ_ADMIN;GCOFF_TASK_SCHEDULE                         ;521.682;B         
+OUC_ARQ_ADMIN   ;GCOFF_TASK_SCHEDULE_BACKUP                  ;0;B         
+OUC_ARQ_ADMIN   ;GCOFF_TRACE_STATUS                          ;76.424;B         
+OUC_ARQ_ADMIN   ;GCOFF_TRACE_STATUS_BACKUP                   ;0;B         
+OUC_ARQ_ADMIN   ;GCOMS_KEY                                   ;0;B         
+OUC_ARQ_ADMIN   ;GCOMS_SYSTEM_VERSION                        ;0;B         
+OUC_ARQ_ADMIN   ;GCOMS_VALUE                                 ;0;B         
+OUC_ARQ_ADMIN   ;GCSI_ENTITY                                 ;0;G         
+OUC_ARQ_ADMIN   ;GCSM_ACTIVITY_DEFINITION                    ;22;C         
+OUC_ARQ_ADMIN   ;GCSM_ACTIVITY_IMPL                          ;0;C         
+OUC_ARQ_ADMIN   ;GCSM_ACTIVITY_STATE                         ;0;C         
+OUC_ARQ_ADMIN   ;GCSM_ACTIVITY_TRANSITION                    ;0;C         
+OUC_ARQ_ADMIN   ;GCSM_ACTIVITY_VARIABLES                     ;4;C         
+OUC_ARQ_ADMIN   ;GCSM_CONDITION_VARIABLES                    ;62;C         
+OUC_ARQ_ADMIN   ;GCSM_CONTEXT                                ;3;C         
+OUC_ARQ_ADMIN   ;GCSM_CONTEXT_RESOLVERS                      ;3;C         
+OUC_ARQ_ADMIN   ;GCSM_CTX_ACTIVITY_STATE                     ;20;C         
+OUC_ARQ_ADMIN   ;GCSM_CTX_ACTIVITY_TRANSITION                ;0;C         
+OUC_ARQ_ADMIN   ;GCSM_CTX_ACTIVITY_VARIABLES                 ;0;C         
+OUC_ARQ_ADMIN   ;GCSM_CTX_CONDITION_VARIABLES                ;0;C         
+OUC_ARQ_ADMIN   ;GCSM_CTX_RESOLVER_VARIABLES                 ;6;C         
+OUC_ARQ_ADMIN   ;GCSM_CTX_RESOLVERS_PRIORITY                 ;3;C         
+OUC_ARQ_ADMIN   ;GCSM_EVENT_TYPE                             ;2;C         
+OUC_ARQ_ADMIN   ;GCSM_GUARD_CONDITION_DEF                    ;54;C         
+OUC_ARQ_ADMIN   ;GCSM_GUARD_CONDITION_IMPL                   ;0;C         
+OUC_ARQ_ADMIN   ;GCSM_IMPLEMENTATION                         ;6;C         
+OUC_ARQ_ADMIN   ;GCSM_MANUAL_TRANS_PROFILE                   ;6;M         
+OUC_ARQ_ADMIN   ;GCSM_MANUAL_TRANS_REASON                    ;1;C         
+OUC_ARQ_ADMIN   ;GCSM_MANUAL_TRANSITION                      ;11;C         
+OUC_ARQ_ADMIN   ;GCSM_MODULE                                 ;2;C         
+OUC_ARQ_ADMIN   ;GCSM_ORIGIN_TYPE                            ;5;C         
+OUC_ARQ_ADMIN   ;GCSM_SEMANTIC                               ;42;C         
+OUC_ARQ_ADMIN   ;GCSM_STATE_DEFINITION                       ;46;C         
+OUC_ARQ_ADMIN   ;GCSM_STATEFULL_ENTITY_TYPE                  ;2;C         
+OUC_ARQ_ADMIN   ;GCSM_STATES_BY_CONTEXT                      ;90;C         
+OUC_ARQ_ADMIN   ;GCSM_STATUS_RELATION                        ;20;M         
+OUC_ARQ_ADMIN   ;GCSM_TIME_EVENT_REQUIREMENT                 ;2;C         
+OUC_ARQ_ADMIN   ;GCSM_TRANSITION                             ;48;C         
+OUC_ARQ_ADMIN   ;GCTS_DICTIONARY                             ;37.089;P         
+OUC_ARQ_ADMIN   ;GCTS_DICTIONARY_DES                         ;608;M         
+OUC_ARQ_ADMIN   ;GCTS_TRANSLATE                              ;4;M         
+OUC_ARQ_ADMIN   ;GCUC_USER_DW_CUSTOMIZATION                  ;5.654;P         
+OUC_ARQ_ADMIN   ;GCUC_USER_QUERY_CUSTOMIZATION               ;232;P         
+OUC_ARQ_ADMIN   ;GCUC_USER_QUERY_FIELDS                      ;249;P         
+OUC_ARQ_ADMIN   ;GCXS_ACTIVE_SESSIONS                        ;157;B         
+OUC_ARQ_ADMIN   ;GCXS_MENU_BACKUP                            ;0;C         
+OUC_ARQ_ADMIN   ;GCXS_MENU_BUTTON                            ;1.442;C         
+OUC_ARQ_ADMIN   ;GCXS_MENU_CONTAINER                         ;15;C         
+OUC_ARQ_ADMIN   ;GCXS_MENU_MAIN                              ;2;C         
+OUC_ARQ_ADMIN   ;GCXS_MENU_PANEL                             ;346;C         
+OUC_ARQ_ADMIN   ;GCXS_MENU_USE_CASE                          ;78;C         
+OUC_ARQ_ADMIN   ;GCXS_ORGANIZATION                           ;1;M         
+OUC_ARQ_ADMIN   ;GCXS_PROFILE_CONFIGURATION                  ;231;C         
+OUC_ARQ_ADMIN   ;GCXS_SERVER                                 ;124;C         
+OUC_ARQ_ADMIN   ;GCXS_SESSION_AUTHORITY                      ;6;B         
+OUC_ARQ_ADMIN   ;GCXS_SYSTEM                                 ;5;M         
+OUC_ARQ_ADMIN   ;GCXS_SYSTEM_CONFIGURATION                   ;5;C         
+OUC_ARQ_ADMIN   ;GCXS_SYSTEM_PROFILE                         ;232;C         
+OUC_ARQ_ADMIN   ;GCXS_SYSTEM_USERS_PROFILE                   ;1.331;C         
+OUC_ARQ_ADMIN   ;GCXS_SYSTEMS_USER                           ;1.593;C         
+OUC_ARQ_ADMIN   ;GCXS_USER                                   ;700;C         
+OUC_ARQ_ADMIN   ;GCXS_USERS_SHADOW                           ;703;C         
+OUC_ARQ_ADMIN   ;GCXS_USERS_UI_CONFIGURATION                 ;1.117;C         
+OUC_ARQ_ADMIN   ;INCMS_VERSION                               ;0;B         
+OUC_COMMON_ADMIN;ADP_AUX_RELOCATION_MP                       ;0;B         
+OUC_COMMON_ADMIN;ADP_GCGT_REROUTESET_ENTITY                  ;1.762;B         
+OUC_COMMON_ADMIN;ADP_RELATIONSHIP_DOCUMENT_CFDI              ;649;B         
+OUC_COMMON_ADMIN;ARFM_NEWS                                   ;371;B         
+OUC_COMMON_ADMIN;ARFM_NEWS_OFFICE                            ;0;B         
+OUC_COMMON_ADMIN;ARFM_NEWS_PROFILE                           ;0;B         
+OUC_COMMON_ADMIN;ARFM_NEWS_READ                              ;73;B         
+OUC_COMMON_ADMIN;ARFM_NEWS_STATUS                            ;2;M         
+OUC_COMMON_ADMIN;ARFM_NEWS_TYPE                              ;4;M         
+OUC_COMMON_ADMIN;ARFM_NEWS_USER                              ;370;B         
+OUC_COMMON_ADMIN;AUX_GCCOM_ADDRESS                           ;0;B         
+OUC_COMMON_ADMIN;AUX_GCCOM_DISTRICT                          ;0;B         
+OUC_COMMON_ADMIN;AUX_GCCOM_ENTRY                             ;527.248;          
+OUC_COMMON_ADMIN;AUX_GCCOM_ENTRY_BKP                         ;545.73;          
+OUC_COMMON_ADMIN;AUX_GCCOM_GEO_ZONE                          ;0;B         
+OUC_COMMON_ADMIN;AUX_GCCOM_GEOGRAPHIC_ENTITY                 ;0;B         
+OUC_COMMON_ADMIN;AUX_GCCOM_REL_DISTRICT_STREET               ;0;B         
+OUC_COMMON_ADMIN;AUX_GCCOM_REL_ZONE_STREET                   ;0;B         
+OUC_COMMON_ADMIN;AUX_GCCOM_STREET                            ;0;B         
+OUC_COMMON_ADMIN;AUX_GCGE_GEOGRAPHICAL_INFO                  ;0;B         
+OUC_COMMON_ADMIN;AUX_GCGT_ATMOS_AREA_GEO_ENT                 ;0;B         
+OUC_COMMON_ADMIN;AUX_GCGT_WEATHER_AREA_GEO_ENT               ;0;B         
+OUC_COMMON_ADMIN;AUX_GCMTZ_GEOGRAPHICAL_ENTITY_TZ            ;0;B         
+OUC_COMMON_ADMIN;DUAL                                        ;1;          
+OUC_COMMON_ADMIN;GCCB_DEP_BILLING_TYPE                       ;5;M         
+OUC_COMMON_ADMIN;GCCB_DISTRIBUTION_DEBTFOLDER                ;140;M         
+OUC_COMMON_ADMIN;GCCB_EMP_OFFICE                             ;9.594;C         
+OUC_COMMON_ADMIN;GCCB_EMPLOYEE                               ;770;C         
+OUC_COMMON_ADMIN;GCCB_EMPLOYEE_CENTER                        ;9;C         
+OUC_COMMON_ADMIN;GCCB_EMPLOYEE_READING_UNIT                  ;29;C         
+OUC_COMMON_ADMIN;GCCB_EMPLOYEE_TECHNICAL_CENTER              ;601;P         
+OUC_COMMON_ADMIN;GCCB_EMPLOYEE_TYPE                          ;3;M         
+OUC_COMMON_ADMIN;GCCB_EVENT_LETTERS                          ;5.009.557  ;B         
+OUC_COMMON_ADMIN;GCCB_GEOENTITY_RMGROUP                      ;0;M         
+OUC_COMMON_ADMIN;GCCB_GROUP_TYPE                             ;11;C         
+OUC_COMMON_ADMIN;GCCB_GROUP_TYPES_AGENTS                     ;2.558;C         
+OUC_COMMON_ADMIN;GCCB_HCAL_LETTER_FORMAT                     ;263;M         
+OUC_COMMON_ADMIN;GCCB_LETTER_ARGUMENT                        ;347;M         
+OUC_COMMON_ADMIN;GCCB_LETTER_ATTACHED_FILE                   ;14;M         
+OUC_COMMON_ADMIN;GCCB_LETTER_DOC_TYPE                        ;1;M         
+OUC_COMMON_ADMIN;GCCB_LETTER_FILE_ACTIVITY                   ;0;C         
+OUC_COMMON_ADMIN;GCCB_LETTER_FILE_METHOD                     ;390;M         
+OUC_COMMON_ADMIN;GCCB_LETTER_FILE_TAB                        ;3.259;M         
+OUC_COMMON_ADMIN;GCCB_LETTER_FILE_TYPE                       ;161;M         
+OUC_COMMON_ADMIN;GCCB_LETTER_FORMAT                          ;188;M         
+OUC_COMMON_ADMIN;GCCB_LETTER_GENERATION_MODE                 ;2;M         
+OUC_COMMON_ADMIN;GCCB_LETTER_GROUP                           ;19;M         
+OUC_COMMON_ADMIN;GCCB_LETTER_METHOD                          ;365;M         
+OUC_COMMON_ADMIN;GCCB_LETTER_TAB                             ;2.604;M         
+OUC_COMMON_ADMIN;GCCB_LETTER_TAB_FORMAT_TYPE                 ;12;C         
+OUC_COMMON_ADMIN;GCCB_OFFICE                                 ;47;C         
+OUC_COMMON_ADMIN;GCCB_OFFICE_CITIES                          ;1.172;P         
+OUC_COMMON_ADMIN;GCCB_OFFICEGROUP_EMP_RESP                   ;57.745;C         
+OUC_COMMON_ADMIN;GCCB_PURCHASE                               ;0;B         
+OUC_COMMON_ADMIN;GCCB_PURCHASE_STATUS                        ;3;M         
+OUC_COMMON_ADMIN;GCCB_PURCHASE_TYPE                          ;2;M         
+OUC_COMMON_ADMIN;GCCB_SEND_SERVICE_LETTER                    ;554.611;B         
+OUC_COMMON_ADMIN;GCCB_SS_EVENT_LETTER                        ;5.009.557  ;B         
+OUC_COMMON_ADMIN;GCCC_CHANNEL                                ;8;M         
+OUC_COMMON_ADMIN;GCCC_COMMUNICATION_VIA                      ;8;M         
+OUC_COMMON_ADMIN;GCCC_COMPLAINT_ACTIVITY                     ;20.695;B         
+OUC_COMMON_ADMIN;GCCC_CUSTOMER_TYPE                          ;21;M         
+OUC_COMMON_ADMIN;GCCC_MMARITAL_STATUS                        ;8;P         
+OUC_COMMON_ADMIN;GCCC_MSEX_TYPE                              ;4;P         
+OUC_COMMON_ADMIN;GCCC_RESPONSIBLE_TYPE                       ;4;M         
+OUC_COMMON_ADMIN;GCCD_MPROFILE                               ;6;M         
+OUC_COMMON_ADMIN;GCCD_RELATIONSHIP                           ;719.549;G         
+OUC_COMMON_ADMIN;GCCD_RELATIONSHIP_DOCUMENT                  ;751.466;B         
+OUC_COMMON_ADMIN;GCCD_RELATIONSHIP_PROFILE                   ;313.75;B         
+OUC_COMMON_ADMIN;GCCOM_ADDRESS                               ;973.565;G         
+OUC_COMMON_ADMIN;GCCOM_ADDRESS_ATTRIBUTES                    ;2.380.016  ;B         
+OUC_COMMON_ADMIN;GCCOM_ADDRESS_STATUS                        ;2;M         
+OUC_COMMON_ADMIN;GCCOM_ADDRESS_TYPE                          ;5;M         
+OUC_COMMON_ADMIN;GCCOM_ADDRESS_UNIT_TYPE                     ;8;M         
+OUC_COMMON_ADMIN;GCCOM_AL_ACTION_TYPE                        ;9;M         
+OUC_COMMON_ADMIN;GCCOM_ANOM_STATUS_GROUP                     ;8;M         
+OUC_COMMON_ADMIN;GCCOM_ANOMALY_GROUP                         ;6;M         
+OUC_COMMON_ADMIN;GCCOM_ANOMALY_MOTIVE                        ;29;P         
+OUC_COMMON_ADMIN;GCCOM_ATTACHMENT                            ;2.449.678  ;G         
+OUC_COMMON_ADMIN;GCCOM_ATTACHMENT_TYPE                       ;14;C         
+OUC_COMMON_ADMIN;GCCOM_BILL                                  ;58.749.750 ;B         
+OUC_COMMON_ADMIN;GCCOM_BILL                                  ;58.979.155 ;B         
+OUC_COMMON_ADMIN;GCCOM_BILL                                  ;58.979.157 ;B         
+OUC_COMMON_ADMIN;GCCOM_BILL                                  ;58.979.162 ;B         
+OUC_COMMON_ADMIN;GCCOM_BILL                                  ;58.979.164 ;B         
+OUC_COMMON_ADMIN;GCCOM_BILL_SERV_STATUS                      ;6;M         
+OUC_COMMON_ADMIN;GCCOM_BILLING_CALENDAR                      ;51;C         
+OUC_COMMON_ADMIN;GCCOM_BILLING_PERIOD                        ;601;C         
+OUC_COMMON_ADMIN;GCCOM_BILLING_SERVICE                       ;533.407;B         
+OUC_COMMON_ADMIN;GCCOM_BIS_TYPE                              ;5;M         
+OUC_COMMON_ADMIN;GCCOM_BUNCHER_TYPE                          ;2;M         
+OUC_COMMON_ADMIN;GCCOM_CALCULATION_MODULE                    ;149;M         
+OUC_COMMON_ADMIN;GCCOM_CALCULATIONMODULE_CLASS               ;103;M         
+OUC_COMMON_ADMIN;GCCOM_CALENDAR                              ;32;C         
+OUC_COMMON_ADMIN;GCCOM_CALENDAR_DAY_TYPE                     ;6;M         
+OUC_COMMON_ADMIN;GCCOM_CALENDAR_ENTITY_TYPE                  ;2;M         
+OUC_COMMON_ADMIN;GCCOM_CM_CONCEPTGROUPTYPE                   ;2;M         
+OUC_COMMON_ADMIN;GCCOM_CM_CONSUMTYPE                         ;20;M         
+OUC_COMMON_ADMIN;GCCOM_CM_GLOBAL                             ;65;M         
+OUC_COMMON_ADMIN;GCCOM_CM_PARAM_DATASRC                      ;2;M         
+OUC_COMMON_ADMIN;GCCOM_CM_PARAM_DATATYPE                     ;2;M         
+OUC_COMMON_ADMIN;GCCOM_CM_PARAM_SOURCE                       ;3;M         
+OUC_COMMON_ADMIN;GCCOM_CM_PARAMETER                          ;238;C         
+OUC_COMMON_ADMIN;GCCOM_CM_PERIOD                             ;134;C         
+OUC_COMMON_ADMIN;GCCOM_CM_TYPE                               ;18;M         
+OUC_COMMON_ADMIN;GCCOM_COMPANY                               ;26;P         
+OUC_COMMON_ADMIN;GCCOM_COMPANY_ENTITY                        ;0;P         
+OUC_COMMON_ADMIN;GCCOM_COMPANY_OFFERED_SERVICE               ;22;C         
+OUC_COMMON_ADMIN;GCCOM_COMPANY_RELATION_TYPE                 ;2;P         
+OUC_COMMON_ADMIN;GCCOM_COMPANY_ROLE                          ;37;P         
+OUC_COMMON_ADMIN;GCCOM_CONCEPTS_MASTER                       ;262;C         
+OUC_COMMON_ADMIN;GCCOM_CONSUM_TYPE                           ;2;M         
+OUC_COMMON_ADMIN;GCCOM_CONSUM_TYPE_GROUP                     ;1;M         
+OUC_COMMON_ADMIN;GCCOM_CONSUM_TYPE_GROUP_UNITS               ;1;M         
+OUC_COMMON_ADMIN;GCCOM_CONTACT_TYPE                          ;7;M         
+OUC_COMMON_ADMIN;GCCOM_CONTR_SERV_ATTRIBUTES                 ;0;B         
+OUC_COMMON_ADMIN;GCCOM_CONTR_SERVICE_HIST                    ;0;B         
+OUC_COMMON_ADMIN;GCCOM_CONTRACT                              ;531.71;B         
+OUC_COMMON_ADMIN;GCCOM_CONTRACT_HIST                         ;0;B         
+OUC_COMMON_ADMIN;GCCOM_CONTRACT_SERV_PROCESS                 ;1;M         
+OUC_COMMON_ADMIN;GCCOM_CONTRACT_SERV_STATUS                  ;6;M         
+OUC_COMMON_ADMIN;GCCOM_CONTRACT_STATUS                       ;6;M         
+OUC_COMMON_ADMIN;GCCOM_CONTRACT_UNIT_TYPE                    ;0;M         
+OUC_COMMON_ADMIN;GCCOM_CONTRACTED_SERVICE                    ;533.407;B         
+OUC_COMMON_ADMIN;GCCOM_CONTRATED_ACTIVATE_TYPE               ;4;M         
+OUC_COMMON_ADMIN;GCCOM_COUNTRY                               ;216;M         
+OUC_COMMON_ADMIN;GCCOM_CS_MOTIVE                             ;23;M         
+OUC_COMMON_ADMIN;GCCOM_CS_MOTIVE_PROCESS                     ;7;M         
+OUC_COMMON_ADMIN;GCCOM_CURRENCY                              ;2;P         
+OUC_COMMON_ADMIN;GCCOM_CURVE_INTERVAL_TYPE                   ;4;M         
+OUC_COMMON_ADMIN;GCCOM_CUSTOMER_TREATMENTS                   ;5;P         
+OUC_COMMON_ADMIN;GCCOM_DISTRICT                              ;1.142;C         
+OUC_COMMON_ADMIN;GCCOM_DOCUM                                 ;2.585.984  ;G         
+OUC_COMMON_ADMIN;GCCOM_DOCUM_ALTERNATIVE                     ;48;C         
+OUC_COMMON_ADMIN;GCCOM_DOCUM_COMMENTS                        ;52;B         
+OUC_COMMON_ADMIN;GCCOM_DOCUM_GROUP                           ;147;P         
+OUC_COMMON_ADMIN;GCCOM_DOCUM_GROUP_TYPE                      ;24;M         
+OUC_COMMON_ADMIN;GCCOM_DOCUM_GROUP_TYPE_LEVEL                ;45;P         
+OUC_COMMON_ADMIN;GCCOM_DOCUM_LEVEL_TYPE                      ;3;M         
+OUC_COMMON_ADMIN;GCCOM_DOCUM_MANDATORY                       ;322;C         
+OUC_COMMON_ADMIN;GCCOM_DOCUM_MEDIA_TYPE                      ;2;M         
+OUC_COMMON_ADMIN;GCCOM_DOCUM_OPTIONAL                        ;4;C         
+OUC_COMMON_ADMIN;GCCOM_DOCUM_PROCESS                         ;575;C         
+OUC_COMMON_ADMIN;GCCOM_DOCUM_STATUS                          ;3;M         
+OUC_COMMON_ADMIN;GCCOM_DOCUM_TYPE                            ;130;P         
+OUC_COMMON_ADMIN;GCCOM_DOCUMENT                              ;46.747;B         
+OUC_COMMON_ADMIN;GCCOM_DOCUMENT_TYPE                         ;5;M         
+OUC_COMMON_ADMIN;GCCOM_DROP_REASON_TYPE                      ;6;M         
+OUC_COMMON_ADMIN;GCCOM_EMPLOYEE_ORG_AREA                     ;738;P         
+OUC_COMMON_ADMIN;GCCOM_ENTRY                                 ;17.809.132 ;B         
+OUC_COMMON_ADMIN;GCCOM_ENTRY_REFERENCE_TYPE                  ;2;M         
+OUC_COMMON_ADMIN;GCCOM_ENTRY_TYPE                            ;75;M         
+OUC_COMMON_ADMIN;GCCOM_EQUIPMENT_CALC_TYPE                   ;2;M         
+OUC_COMMON_ADMIN;GCCOM_EQUIPMENT_TYPE                        ;1;P         
+OUC_COMMON_ADMIN;GCCOM_FACTOR_TYPE                           ;7;M         
+OUC_COMMON_ADMIN;GCCOM_FARE                                  ;61;C         
+OUC_COMMON_ADMIN;GCCOM_FARE_CM                               ;650;C         
+OUC_COMMON_ADMIN;GCCOM_FARE_CM_PARAMETER                     ;2.399;C         
+OUC_COMMON_ADMIN;GCCOM_FARE_GROUP                            ;242;P         
+OUC_COMMON_ADMIN;GCCOM_FARE_GROUP_DEF                        ;7;P         
+OUC_COMMON_ADMIN;GCCOM_FARE_GROUP_TYPE                       ;4;C         
+OUC_COMMON_ADMIN;GCCOM_FARE_PARAMETER_BLOCKS                 ;1.778;C         
+OUC_COMMON_ADMIN;GCCOM_FARE_PERIOD                           ;343;C         
+OUC_COMMON_ADMIN;GCCOM_FARE_RATEAREAS                        ;61;C         
+OUC_COMMON_ADMIN;GCCOM_FARE_TYPE                             ;3;M         
+OUC_COMMON_ADMIN;GCCOM_FARE_USAGE_UNITS                      ;55;C         
+OUC_COMMON_ADMIN;GCCOM_FARED_CONCEPT                         ;650;C         
+OUC_COMMON_ADMIN;GCCOM_GAS_POOL                              ;0;B         
+OUC_COMMON_ADMIN;GCCOM_GEO_COUNTRY                           ;202;C         
+OUC_COMMON_ADMIN;GCCOM_GEO_ZONE                              ;1.142;P         
+OUC_COMMON_ADMIN;GCCOM_GEOGRAPHIC_ENTITY                     ;1.161;P         
+OUC_COMMON_ADMIN;GCCOM_GEOGRAPHIC_ENTITY_TYPE                ;4;M         
+OUC_COMMON_ADMIN;GCCOM_GIS                                   ;27;P         
+OUC_COMMON_ADMIN;GCCOM_GLOBAL_PARAMETER                      ;24;M         
+OUC_COMMON_ADMIN;GCCOM_HIST_PAYMENT_FORM                     ;557.87;B         
+OUC_COMMON_ADMIN;GCCOM_HIST_PAYMENT_FORM_TYPE                ;5;M         
+OUC_COMMON_ADMIN;GCCOM_LANGUAGE                              ;1;P         
+OUC_COMMON_ADMIN;GCCOM_MASTER_TYPIFICATION                   ;64;M         
+OUC_COMMON_ADMIN;GCCOM_MASTER_VALUES                         ;451.413;M         
+OUC_COMMON_ADMIN;GCCOM_NAICS                                 ;1;C         
+OUC_COMMON_ADMIN;GCCOM_NETMET_CONSUMTYPE                     ;0;P         
+OUC_COMMON_ADMIN;GCCOM_NON_METERED_EQUIPMENT                 ;22;C         
+OUC_COMMON_ADMIN;GCCOM_NON_METERED_USAGES                    ;22;P         
+OUC_COMMON_ADMIN;GCCOM_ORG_AREA_TYPE                         ;5;M         
+OUC_COMMON_ADMIN;GCCOM_ORGANIZATIONAL_AREA                   ;19;C         
+OUC_COMMON_ADMIN;GCCOM_PARAMETER                             ;13.791;M         
+OUC_COMMON_ADMIN;GCCOM_PARAMETER_GROUP                       ;25;M         
+OUC_COMMON_ADMIN;GCCOM_PARAMETER_LEVEL                       ;106;M         
+OUC_COMMON_ADMIN;GCCOM_PARAMETER_MASTER                      ;352;M         
+OUC_COMMON_ADMIN;GCCOM_PARIDAD_TYPE                          ;3;P         
+OUC_COMMON_ADMIN;GCCOM_PAYMENT_FORM                          ;543.423;G         
+OUC_COMMON_ADMIN;GCCOM_PAYMENTFORM_STATUS                    ;2;M         
+OUC_COMMON_ADMIN;GCCOM_PERIODICITY_TYPE                      ;6;M         
+OUC_COMMON_ADMIN;GCCOM_PERSONAL_DOCUMENT_TYPE                ;10;M         
+OUC_COMMON_ADMIN;GCCOM_PLACE_TYPE                            ;19;P         
+OUC_COMMON_ADMIN;GCCOM_PROPERTY_CUST_RELATION                ;5;M         
+OUC_COMMON_ADMIN;GCCOM_RATE_SERV_RATE_TYPE                   ;106;C         
+OUC_COMMON_ADMIN;GCCOM_READING_FACTOR                        ;32.423.629 ;B         
+OUC_COMMON_ADMIN;GCCOM_REFERENCE_TYPE                        ;113;M         
+OUC_COMMON_ADMIN;GCCOM_REL_DISTRICT_STREET                   ;20.051;P         
+OUC_COMMON_ADMIN;GCCOM_REL_ZONE_STREET                       ;20.051;P         
+OUC_COMMON_ADMIN;GCCOM_ROLE                                  ;17;M         
+OUC_COMMON_ADMIN;GCCOM_SECTOR                                ;4;M         
+OUC_COMMON_ADMIN;GCCOM_SECTOR_SUPPLY                         ;537.146;B         
+OUC_COMMON_ADMIN;GCCOM_SECTOR_SUPPLY_HIST                    ;34.049;B         
+OUC_COMMON_ADMIN;GCCOM_SECTOR_SUPPLY_STATUS                  ;6;M         
+OUC_COMMON_ADMIN;GCCOM_SECTOR_SUPPLY_TYPE                    ;3;M         
+OUC_COMMON_ADMIN;GCCOM_SEGMENT                               ;12;M         
+OUC_COMMON_ADMIN;GCCOM_SEGMENT_GROUP_TYPE                    ;2;M         
+OUC_COMMON_ADMIN;GCCOM_SEND_SERVICE                          ;907.384;B         
+OUC_COMMON_ADMIN;GCCOM_SENDDATE_TYPE                         ;2;M         
+OUC_COMMON_ADMIN;GCCOM_SENDING_WAY_TYPE                      ;6;M         
+OUC_COMMON_ADMIN;GCCOM_SERV_REQ_INFO                         ;4.004;B         
+OUC_COMMON_ADMIN;GCCOM_SERVICE_RATE_TYPE                     ;27;M         
+OUC_COMMON_ADMIN;GCCOM_SERVICE_REQUEST                       ;46.747;B         
+OUC_COMMON_ADMIN;GCCOM_SERVICE_TYPE                          ;5;M         
+OUC_COMMON_ADMIN;GCCOM_SERVREQ_FIELDORDER                    ;11.761;B         
+OUC_COMMON_ADMIN;GCCOM_SERVREQUEST_TYPE                      ;12;M         
+OUC_COMMON_ADMIN;GCCOM_SS_DEREGULATION                       ;0;B         
+OUC_COMMON_ADMIN;GCCOM_SS_EQUIPMENT                          ;342.136;B         
+OUC_COMMON_ADMIN;GCCOM_STAND_USAGE                           ;2.298;C         
+OUC_COMMON_ADMIN;GCCOM_STREET                                ;24.474;P         
+OUC_COMMON_ADMIN;GCCOM_STREET_HIST                           ;199;P         
+OUC_COMMON_ADMIN;GCCOM_STREET_TYPE                           ;33;P         
+OUC_COMMON_ADMIN;GCCOM_SUPPLY                                ;537.4;B         
+OUC_COMMON_ADMIN;GCCOM_SUPPLY_HIST                           ;3.027;B         
+OUC_COMMON_ADMIN;GCCOM_SUPPLY_STATUS                         ;3;M         
+OUC_COMMON_ADMIN;GCCOM_TEXT_TYPE                             ;3;P         
+OUC_COMMON_ADMIN;GCCOM_THIRD_PARTY                           ;270.8;B         
+OUC_COMMON_ADMIN;GCCOM_TOU_SCHEMA                            ;0;P         
+OUC_COMMON_ADMIN;GCCOM_TYPE_UNIT                             ;2;M         
+OUC_COMMON_ADMIN;GCCOM_UDF                                   ;19.197;B         
+OUC_COMMON_ADMIN;GCCOM_UDF_ENTITY                            ;18;M         
+OUC_COMMON_ADMIN;GCCOM_UDF_MASK                              ;4;P         
+OUC_COMMON_ADMIN;GCCOM_UDF_MASTER                            ;19;M         
+OUC_COMMON_ADMIN;GCCOM_UDF_TYPE                              ;4;M         
+OUC_COMMON_ADMIN;GCCOM_UNITS                                 ;6;M         
+OUC_COMMON_ADMIN;GCCOM_UNITS_CONVERSION_FACTORS              ;1;P         
+OUC_COMMON_ADMIN;GCCOM_UPM_DOCUM_GROUP                       ;0;P         
+OUC_COMMON_ADMIN;GCCOM_VALIDATION                            ;28;P         
+OUC_COMMON_ADMIN;GCCOM_VOLTAGE                               ;3;P         
+OUC_COMMON_ADMIN;GCCOM_VOLTAGE_TYPE                          ;4;P         
+OUC_COMMON_ADMIN;GCCOM_WAY_TYP_ACT_TYP_CON                   ;3;P         
+OUC_COMMON_ADMIN;GCCOM_WEEK_DAYS                             ;8;M         
+OUC_COMMON_ADMIN;GCCOM_ZONE                                  ;0;P         
+OUC_COMMON_ADMIN;GCCOM_ZONE_TYPE                             ;0;P         
+OUC_COMMON_ADMIN;GCDR_MODULE                                 ;4;P         
+OUC_COMMON_ADMIN;GCDR_REPORT                                 ;21;P         
+OUC_COMMON_ADMIN;GCDR_REPORT_USER_CONFIGURATION              ;4;B         
+OUC_COMMON_ADMIN;GCGE_EXT_MESSAGE_IN_HIST                    ;0;B         
+OUC_COMMON_ADMIN;GCGE_EXTERNAL_ACK                           ;0;B         
+OUC_COMMON_ADMIN;GCGE_EXTERNAL_MESSAGE                       ;214.751;B         
+OUC_COMMON_ADMIN;GCGE_EXTERNAL_MESSAGE_STATUS                ;4;M         
+OUC_COMMON_ADMIN;GCGE_EXTERNAL_MESSAGE_TYPE                  ;27;M         
+OUC_COMMON_ADMIN;GCGE_EXTERNAL_MESSAGES_IN                   ;71.661;B         
+OUC_COMMON_ADMIN;GCGE_EXTERNAL_MESSG_IN_STATES               ;6;P         
+OUC_COMMON_ADMIN;GCGE_GEOGRAPHICAL_INFO                      ;3.048;B         
+OUC_COMMON_ADMIN;GCGE_GEOGRAPHICAL_LAYER                     ;6;M         
+OUC_COMMON_ADMIN;GCGE_GEOGRAPHICAL_LAYER_TYPE                ;3;M         
+OUC_COMMON_ADMIN;GCGE_INFO_MASTER_PANEL                      ;623;M         
+OUC_COMMON_ADMIN;GCGE_MENU_INFO                              ;255;P         
+OUC_COMMON_ADMIN;GCGT_ATMOS_AREA_GEO_ENT                     ;1.129;C         
+OUC_COMMON_ADMIN;GCGT_ATMOSPHERIC_AREA                       ;1;C         
+OUC_COMMON_ADMIN;GCGT_ATTRIBUTE                              ;9.772.482  ;B         
+OUC_COMMON_ADMIN;GCGT_ATTRIBUTE_FORMAT                       ;7;M         
+OUC_COMMON_ADMIN;GCGT_ATTRIBUTE_VALUES                       ;2.252;C         
+OUC_COMMON_ADMIN;GCGT_ATTRIBUTES_TYPE                        ;24;M         
+OUC_COMMON_ADMIN;GCGT_CODE_ATTRIBUTE                         ;0;P         
+OUC_COMMON_ADMIN;GCGT_GT_NODISC_MOTIVE                       ;1;M         
+OUC_COMMON_ADMIN;GCGT_IR_LIST_ACTIVITY                       ;292;B         
+OUC_COMMON_ADMIN;GCGT_LINE_TYPE                              ;1;P         
+OUC_COMMON_ADMIN;GCGT_LOAD_PROFILE                           ;0;P         
+OUC_COMMON_ADMIN;GCGT_MASTER_ATTRIBUTES                      ;654;C         
+OUC_COMMON_ADMIN;GCGT_ME_HIST_OFICCIAL_CONTROL               ;0;B         
+OUC_COMMON_ADMIN;GCGT_ME_KEY_TYPE                            ;0;M         
+OUC_COMMON_ADMIN;GCGT_ME_KEYCHANGE_STATUS                    ;3;M         
+OUC_COMMON_ADMIN;GCGT_ME_METER                               ;0;B         
+OUC_COMMON_ADMIN;GCGT_ME_TOKEN                               ;0;B         
+OUC_COMMON_ADMIN;GCGT_ME_TOKEN_ATTRIBUTES                    ;0;B         
+OUC_COMMON_ADMIN;GCGT_ME_TOKEN_MASTER                        ;10;M         
+OUC_COMMON_ADMIN;GCGT_ME_TOKEN_STS_TEST                      ;12;M         
+OUC_COMMON_ADMIN;GCGT_ME_TOKEN_TYPE                          ;2;M         
+OUC_COMMON_ADMIN;GCGT_ME_USAGE_GROUP_TYPE                    ;4;P         
+OUC_COMMON_ADMIN;GCGT_ME_USAGE_TYPE_GROUP                    ;3;M         
+OUC_COMMON_ADMIN;GCGT_NS_FIELD_ACTIV                         ;3.114;B         
+OUC_COMMON_ADMIN;GCGT_NS_INSTALLATION_STATUS                 ;4;P         
+OUC_COMMON_ADMIN;GCGT_NS_PREMISE                             ;403.042;B         
+OUC_COMMON_ADMIN;GCGT_NS_PREMISE_CENTRALIZATION              ;537.481;B         
+OUC_COMMON_ADMIN;GCGT_NS_PREMISE_STATUS                      ;5;P         
+OUC_COMMON_ADMIN;GCGT_NS_PREMISE_TYPE                        ;21;P         
+OUC_COMMON_ADMIN;GCGT_PREMISE_ATTRIBUTES                     ;2.418.165  ;B         
+OUC_COMMON_ADMIN;GCGT_RE_ANOMALOUS                           ;2.188.489  ;B         
+OUC_COMMON_ADMIN;GCGT_RE_ANOMALOUS_GROUP                     ;2;M         
+OUC_COMMON_ADMIN;GCGT_RE_ANOMALOUS_HIST                      ;0;B         
+OUC_COMMON_ADMIN;GCGT_RE_ANOMALY                             ;4.194.789  ;B         
+OUC_COMMON_ADMIN;GCGT_RE_ANOMALY_FIELDACTIVITY               ;63.225;B         
+OUC_COMMON_ADMIN;GCGT_RE_ANOMALY_LEVEL                       ;3;M         
+OUC_COMMON_ADMIN;GCGT_RE_ANOMALY_MASTER                      ;88;M         
+OUC_COMMON_ADMIN;GCGT_RE_ANOMALY_PARAM                       ;123.134;C         
+OUC_COMMON_ADMIN;GCGT_RE_ANOMALY_SET                         ;2.203.715  ;B         
+OUC_COMMON_ADMIN;GCGT_RE_ANOMALY_STATUS                      ;5;M         
+OUC_COMMON_ADMIN;GCGT_RE_ANOMALY_TYPE                        ;2;M         
+OUC_COMMON_ADMIN;GCGT_RE_ANOMALY_VALUE                       ;29;C         
+OUC_COMMON_ADMIN;GCGT_RE_ANOMALY_VALUE_DESC                  ;15;M         
+OUC_COMMON_ADMIN;GCGT_RE_ESTIM_MOTIVE                        ;5;C         
+OUC_COMMON_ADMIN;GCGT_RE_KEY_TYPE                            ;2;M         
+OUC_COMMON_ADMIN;GCGT_RE_LOCATION_TYPE                       ;7;M         
+OUC_COMMON_ADMIN;GCGT_RE_LOCK_LOCATION                       ;7;M         
+OUC_COMMON_ADMIN;GCGT_RE_LOCK_TYPE                           ;5;P         
+OUC_COMMON_ADMIN;GCGT_RE_MEASURE_POINT_STATUS                ;4;M         
+OUC_COMMON_ADMIN;GCGT_RE_MEASUREMENT_POINT                   ;532.157;B         
+OUC_COMMON_ADMIN;GCGT_RE_MEASUREMENT_POINT_HIST              ;20.394;B         
+OUC_COMMON_ADMIN;GCGT_RE_MEASURING_POINT_DEVICE              ;276.568;B         
+OUC_COMMON_ADMIN;GCGT_RE_MODE_MIU_TYPE                       ;0;P         
+OUC_COMMON_ADMIN;GCGT_RE_MODE_TY_GRO_MODE_TY                 ;4;C         
+OUC_COMMON_ADMIN;GCGT_RE_MODE_TYPE                           ;3;M         
+OUC_COMMON_ADMIN;GCGT_RE_MODE_TYPE_GROUP                     ;2;C         
+OUC_COMMON_ADMIN;GCGT_RE_MP_CENTRALIZATION                   ;537.485;B         
+OUC_COMMON_ADMIN;GCGT_RE_MP_NATURE                           ;10;P         
+OUC_COMMON_ADMIN;GCGT_RE_MP_STATUS_HIST                      ;1.168.649  ;B         
+OUC_COMMON_ADMIN;GCGT_RE_MP_TYPE                             ;4;M         
+OUC_COMMON_ADMIN;GCGT_RE_MP_TYPE_GROUP                       ;0;M         
+OUC_COMMON_ADMIN;GCGT_RE_MP_TYPE_GROUP_MP_TYPE               ;0;P         
+OUC_COMMON_ADMIN;GCGT_RE_NO_READ_CODE                        ;55;C         
+OUC_COMMON_ADMIN;GCGT_RE_NO_READ_CODE_ANOM_MAST              ;13;C         
+OUC_COMMON_ADMIN;GCGT_RE_NO_READ_CODE_GRP                    ;54;C         
+OUC_COMMON_ADMIN;GCGT_RE_NO_READ_CODE_NOT_AN_MA              ;0;P         
+OUC_COMMON_ADMIN;GCGT_RE_NO_READ_CODE_TYPE                   ;42;C         
+OUC_COMMON_ADMIN;GCGT_RE_NO_READ_GRP_DEF                     ;7;M         
+OUC_COMMON_ADMIN;GCGT_RE_NO_READ_TYPE_DEF                    ;9;M         
+OUC_COMMON_ADMIN;GCGT_RE_PERIO_GRO_PERIO_TYPE                ;1;C         
+OUC_COMMON_ADMIN;GCGT_RE_PERIODICITY                         ;6;M         
+OUC_COMMON_ADMIN;GCGT_RE_PERIODICITY_CYCLE                   ;24;P         
+OUC_COMMON_ADMIN;GCGT_RE_PERIODICITY_GROUP                   ;1;C         
+OUC_COMMON_ADMIN;GCGT_RE_READ_CODE_ATTR                      ;23;P         
+OUC_COMMON_ADMIN;GCGT_RE_READ_GROUP_READ                     ;16;M         
+OUC_COMMON_ADMIN;GCGT_RE_READ_STA_GRP                        ;3;M         
+OUC_COMMON_ADMIN;GCGT_RE_READ_STA_GRP_STA                    ;7;P         
+OUC_COMMON_ADMIN;GCGT_RE_READ_STATUS                         ;9;M         
+OUC_COMMON_ADMIN;GCGT_RE_READER                              ;170;C         
+OUC_COMMON_ADMIN;GCGT_RE_READER_POSITION                     ;0;B         
+OUC_COMMON_ADMIN;GCGT_RE_READER_QUALIFICATION                ;74;C         
+OUC_COMMON_ADMIN;GCGT_RE_READER_STATUS                       ;2;M         
+OUC_COMMON_ADMIN;GCGT_RE_READING                             ;21.710.094 ;B         
+OUC_COMMON_ADMIN;GCGT_RE_READING                             ;21.710.095 ;B         
+OUC_COMMON_ADMIN;GCGT_RE_READING_HIST                        ;44.736.646 ;B         
+OUC_COMMON_ADMIN;GCGT_RE_READING_TYPE                        ;17;M         
+OUC_COMMON_ADMIN;GCGT_RE_READING_TYPE_GROUP                  ;2;M         
+OUC_COMMON_ADMIN;GCGT_RE_READING_UNIT                        ;5;C         
+OUC_COMMON_ADMIN;GCGT_RE_READING_UNIT_TYPE                   ;2;M         
+OUC_COMMON_ADMIN;GCGT_RE_ROUTE                               ;95.908;B         
+OUC_COMMON_ADMIN;GCGT_RE_ROUTE_MASTER                        ;6.15;B         
+OUC_COMMON_ADMIN;GCGT_RE_ROUTE_MASTER_GROUP                  ;10;M         
+OUC_COMMON_ADMIN;GCGT_RE_ROUTE_SET                           ;1.768;B         
+OUC_COMMON_ADMIN;GCGT_RE_ROUTE_SET_NATURE                    ;2;P         
+OUC_COMMON_ADMIN;GCGT_RE_ROUTE_STA_GRP_REL                   ;22;P         
+OUC_COMMON_ADMIN;GCGT_RE_ROUTE_STATUS                        ;14;M         
+OUC_COMMON_ADMIN;GCGT_RE_ROUTE_STATUS_GROUP                  ;7;M         
+OUC_COMMON_ADMIN;GCGT_RE_SCHE_TY_GRO_SCHE_TY                 ;1;C         
+OUC_COMMON_ADMIN;GCGT_RE_SCHEDULE_TYPE                       ;1;M         
+OUC_COMMON_ADMIN;GCGT_RE_SCHEDULE_TYPE_GROUP                 ;1;C         
+OUC_COMMON_ADMIN;GCGT_RE_SPEC_TY_GRO_SPEC_TY                 ;4;C         
+OUC_COMMON_ADMIN;GCGT_RE_SPEC_TYPE_GROUP                     ;1;C         
+OUC_COMMON_ADMIN;GCGT_RE_SPECIALIZATION_TYPE                 ;24;M         
+OUC_COMMON_ADMIN;GCGT_SECTOR_SERV_ATTRIBUTES                 ;73;P         
+OUC_COMMON_ADMIN;GCGT_TYPE_MASTER_ATTRIBUTE                  ;591;C         
+OUC_COMMON_ADMIN;GCGT_WEATHER_AREA                           ;1;C         
+OUC_COMMON_ADMIN;GCGT_WEATHER_AREA_GEO_ENT                   ;1.129;C         
+OUC_COMMON_ADMIN;GCGT_WEATHER_AREA_VALUES                    ;1;C         
+OUC_COMMON_ADMIN;GCGT_WO_ACTION_MODULE                       ;0;P         
+OUC_COMMON_ADMIN;GCGT_WO_AREA_GEO_ENTITY                     ;5.667;C         
+OUC_COMMON_ADMIN;GCGT_WO_AREA_HIERARCHY                      ;0;P         
+OUC_COMMON_ADMIN;GCGT_WO_AREA_TYPE                           ;3;M         
+OUC_COMMON_ADMIN;GCGT_WO_CONDUCTOR_TYPE                      ;0;M         
+OUC_COMMON_ADMIN;GCGT_WO_CONNECTION_ATTR                     ;0;B         
+OUC_COMMON_ADMIN;GCGT_WO_CONNECTION_POINT                    ;1.889;B         
+OUC_COMMON_ADMIN;GCGT_WO_CONNECTION_PREMISE                  ;398.353;B         
+OUC_COMMON_ADMIN;GCGT_WO_CONNECTION_TYPE                     ;0;M         
+OUC_COMMON_ADMIN;GCGT_WO_EQUIP_POSITION                      ;276.568;B         
+OUC_COMMON_ADMIN;GCGT_WO_EQUIPMENT                           ;0;B         
+OUC_COMMON_ADMIN;GCGT_WO_EQUIPMENT_STATUS                    ;4;P         
+OUC_COMMON_ADMIN;GCGT_WO_EQUIPMENT_TYPE                      ;4;P         
+OUC_COMMON_ADMIN;GCGT_WO_EXECUTION_AREA                      ;53;C         
+OUC_COMMON_ADMIN;GCGT_WO_LINE_ATTRIBUTES                     ;3;P         
+OUC_COMMON_ADMIN;GCGT_WO_LINE_TYPE                           ;4;M         
+OUC_COMMON_ADMIN;GCGT_WO_REBATE_MAT_REL                      ;0;C         
+OUC_COMMON_ADMIN;GCGT_WO_REBATE_TYPE                         ;1;M         
+OUC_COMMON_ADMIN;GCMTZ_CALENDARS                             ;75;C         
+OUC_COMMON_ADMIN;GCMTZ_GEOGRAPHICAL_ENTITY_TZ                ;1.129;P         
+OUC_COMMON_ADMIN;GCMTZ_TIMEZONES                             ;3;M         
+OUC_COMMON_ADMIN;PLAN_TABLE                                  ;0;B         
+OUC_DEV_ADMIN   ;GCCOM_MODULE                                ;21;M         
+OUC_DEV_ADMIN   ;GCCOM_SUB_MODULE                            ;24;M         
+OUC_DEV_ADMIN   ;GCCOM_TRANSL_BUNDLE_LANGUAGES               ;18.044;M         
+OUC_DEV_ADMIN   ;GCCOM_TRANSLATE                             ;16.226;M         
+OUC_DEV_ADMIN   ;GCCOM_TRANSLATE_BUNDLE                      ;13.566;M         
+OUC_DEV_ADMIN   ;GCCOM_TRANSLATE_LANGUAGES                   ;34.23;P         
+OUC_DEV_ADMIN   ;GCCOM_TRANSLATION_TYPE                      ;2;P         
+OUC_DEV_ADMIN   ;GCRRS_OSA_CIS_GRANT_EXCEPTIONS              ;122;M         
+OUC_DEV_ADMIN   ;GCRRS_OSA_CIS_OBJECTS                       ;123;M         
+OUC_DEV_ADMIN   ;GCRRS_OSA_CIS_ROLE_SYS                      ;101;M         
+OUC_DEV_ADMIN   ;GCRRS_OSA_CIS_ROLES                         ;10;M         
+OUC_DEV_ADMIN   ;GCRRS_OSA_CIS_TABLES                        ;2.191;M         
+OUC_DEV_ADMIN   ;GCRRS_SCHEMA                                ;8;M         
+OUC_DEV_ADMIN   ;GCRRS_TYPE_OBJECT                           ;9;M         
+OUC_DEV_ADMIN   ;GCRRS_TYPE_TABLE                            ;6;M         
+OUC_DEV_ADMIN   ;SCRIPTS_SPRINT                              ;1.677;          
+OUC_GENERICO    ;CHANGE_INITIAL_DATE                         ;931;M         
+OUC_GENERICO    ;CHANGE_MODIF_DATE                           ;0;M         
+OUC_GENERICO    ;UPLOAD_EMPL_OFFICE                          ;5;Z         
+OUC_GENERICO    ;UPLOAD_EMPL_OFFICEGROUP                     ;0;Z         
+OUC_GENERICO    ;UPLOAD_USER_EMPLOYEE                        ;0;Z         
+OUC_INTER_ADMIN ;EXC_CONTROL_TRAN                            ;161;          
+OUC_INTER_ADMIN ;EXC_TABLES_TO_TRANSFER                      ;24;          
+OUC_INTER_ADMIN ;ICCB_OFFICE                                 ;16;          
+OUC_INTER_ADMIN ;ICCD_RELATIONSHIP                           ;196;          
+OUC_INTER_ADMIN ;ICCOM_ADDRESS                               ;117.087;          
+OUC_INTER_ADMIN ;ICCOM_BILL                                  ;7.014;          
+OUC_INTER_ADMIN ;ICCOM_BILLING_CONCEPT                       ;14.019;          
+OUC_INTER_ADMIN ;ICCOM_BILLING_SERVICE                       ;1.511;          
+OUC_INTER_ADMIN ;ICCOM_CONTR_SERV_ATTRIBUTES                 ;335;          
+OUC_INTER_ADMIN ;ICCOM_CONTRACTED_DEMAND                     ;1.985;          
+OUC_INTER_ADMIN ;ICCOM_CONTRACTED_SERVICE                    ;1.511;          
+OUC_INTER_ADMIN ;ICCOM_FARE                                  ;121;          
+OUC_INTER_ADMIN ;ICCOM_GEO_ZONE                              ;8.018;          
+OUC_INTER_ADMIN ;ICCOM_GEOGRAPHIC_ENTITY                     ;3.954;          
+OUC_INTER_ADMIN ;ICCOM_ORGANIZATIONAL_AREA                   ;24;          
+OUC_INTER_ADMIN ;ICCOM_REL_ZONE_STREET                       ;111.885;          
+OUC_INTER_ADMIN ;ICCOM_SECTOR_SUPPLY                         ;1.341;          
+OUC_INTER_ADMIN ;ICCOM_STREET                                ;111.367;          
+OUC_INTER_ADMIN ;ICGT_ATTRIBUTE                              ;5.903;          
+OUC_INTER_ADMIN ;ICGT_IR_IRREGULARITY                        ;82;          
+OUC_INTER_ADMIN ;ICGT_ME_CENTER                              ;17;          
+OUC_INTER_ADMIN ;ICGT_RE_MEASUREMENT_POINT                   ;1.021;          
+OUC_INTER_ADMIN ;ICGT_RE_READING_UNIT                        ;11;          
+OUC_INTER_ADMIN ;ICGT_RE_ROUTE_MASTER                        ;436;          
+OUC_INTER_ADMIN ;ICGT_WO_FIELD_ACTIVITY                      ;2.668;          
+OUC_INTER_ADMIN ;ICGT_WO_TECHNICAL_CENTER                    ;26;          
+OUC_REPORT      ;Translations                                ;584;          
+OUCW_ADMIN      ;GCCOM_METER_PROPERTY                        ;2;P         
+OUCW_ADMIN      ;GCGE_FILE_FORMAT_GROUP                      ;1;M         
+OUCW_ADMIN      ;GCGE_FILE_FORMAT_GROUP_TYPE                 ;1;M         
+OUCW_ADMIN      ;GCGE_MESSAGE                                ;0;B         
+OUCW_ADMIN      ;GCGE_MESSAGE_DETAIL                         ;0;B         
+OUCW_ADMIN      ;GCGE_MESSAGE_FILE_FORMAT_TYPE               ;3;M         
+OUCW_ADMIN      ;GCGE_MESSAGE_STATUS                         ;4;M         
+OUCW_ADMIN      ;GCGE_MESSAGE_TYPE                           ;3;M         
+OUCW_ADMIN      ;GCGE_MESSAGE_TYPE_LETTER_TYPE               ;0;B         
+OUCW_ADMIN      ;GCGT_ME_ACTION_CHANGE                       ;63;P         
+OUCW_ADMIN      ;GCGT_ME_ACTION_CHANGE_TYPE                  ;19;M         
+OUCW_ADMIN      ;GCGT_ME_ACTION_TYPE                         ;2;M         
+OUCW_ADMIN      ;GCGT_ME_CAUSE                               ;13;M         
+OUCW_ADMIN      ;GCGT_ME_CAUSE_CENTER_TYPE                   ;147;M         
+OUCW_ADMIN      ;GCGT_ME_CENTER                              ;267;C         
+OUCW_ADMIN      ;GCGT_ME_CENTER_ACTION                       ;5.991;B         
+OUCW_ADMIN      ;GCGT_ME_CENTER_EMPLOYEE                     ;0;C         
+OUCW_ADMIN      ;GCGT_ME_CENTER_MATERIAL                     ;581;B         
+OUCW_ADMIN      ;GCGT_ME_CENTER_PERSONNEL                    ;312;C         
+OUCW_ADMIN      ;GCGT_ME_CENTER_TYPE                         ;7;M         
+OUCW_ADMIN      ;GCGT_ME_CENTER_TYPE_CENTER                  ;272;P         
+OUCW_ADMIN      ;GCGT_ME_CHECK_TYPE                          ;10;P         
+OUCW_ADMIN      ;GCGT_ME_DEVICE                              ;280.925;B         
+OUCW_ADMIN      ;GCGT_ME_DEVICE_ATTRIBUTE                    ;862.07;B         
+OUCW_ADMIN      ;GCGT_ME_DEVICE_HIST                         ;361.265;B         
+OUCW_ADMIN      ;GCGT_ME_DEVICE_MARK                         ;50;C         
+OUCW_ADMIN      ;GCGT_ME_DEVICE_MODEL                        ;279;C         
+OUCW_ADMIN      ;GCGT_ME_DEVICE_MODEL_ATTRIBUTE              ;4;P         
+OUCW_ADMIN      ;GCGT_ME_DEVICE_TYPE                         ;1;C         
+OUCW_ADMIN      ;GCGT_ME_DEVICE_TYPE_TEST                    ;2;P         
+OUCW_ADMIN      ;GCGT_ME_DEVICE_USAGE_TYPE                   ;0;C         
+OUCW_ADMIN      ;GCGT_ME_ENTRY                               ;7.411;B         
+OUCW_ADMIN      ;GCGT_ME_EQUIPMENT_TEST                      ;1;P         
+OUCW_ADMIN      ;GCGT_ME_FORM_BASE_TYPE                      ;2;P         
+OUCW_ADMIN      ;GCGT_ME_HIST_EQUIP_POSITION                 ;276.568;B         
+OUCW_ADMIN      ;GCGT_ME_LOCATION_TYPE                       ;0;M         
+OUCW_ADMIN      ;GCGT_ME_LOT                                 ;7.412;B         
+OUCW_ADMIN      ;GCGT_ME_LOT_DEVICE                          ;301.762;B         
+OUCW_ADMIN      ;GCGT_ME_LOT_MATERIAL                        ;0;B         
+OUCW_ADMIN      ;GCGT_ME_LOT_SEAL                            ;30.398;B         
+OUCW_ADMIN      ;GCGT_ME_LOT_TYPE                            ;6;M         
+OUCW_ADMIN      ;GCGT_ME_MASTER_DEVICE_SECTOR                ;4;P         
+OUCW_ADMIN      ;GCGT_ME_MASTER_DEVICE_TYPE                  ;2;M         
+OUCW_ADMIN      ;GCGT_ME_MATERIAL_ACTION                     ;0;B         
+OUCW_ADMIN      ;GCGT_ME_MODEL_ATTRIBUTE                     ;1.019;C         
+OUCW_ADMIN      ;GCGT_ME_MOVE_ACTION                         ;12;M         
+OUCW_ADMIN      ;GCGT_ME_PROTOCOL_ATTR_STS                   ;0;B         
+OUCW_ADMIN      ;GCGT_ME_PROTOCOL_ATTR_STS_DFLT              ;0;C         
+OUCW_ADMIN      ;GCGT_ME_PROTOCOL_MASTER                     ;2;M         
+OUCW_ADMIN      ;GCGT_ME_PROTOCOL_STS_KEYCHANGE              ;0;B         
+OUCW_ADMIN      ;GCGT_ME_REPAIR                              ;0;B         
+OUCW_ADMIN      ;GCGT_ME_REPAIR_RESULT_TYPE                  ;3;M         
+OUCW_ADMIN      ;GCGT_ME_RESULT                              ;0;B         
+OUCW_ADMIN      ;GCGT_ME_RESULT_ATTRIBUTES                   ;0;B         
+OUCW_ADMIN      ;GCGT_ME_SAMPLE_SIZE                         ;4;P         
+OUCW_ADMIN      ;GCGT_ME_SEAL                                ;18.295;B         
+OUCW_ADMIN      ;GCGT_ME_SEAL_COLOR                          ;9;C         
+OUCW_ADMIN      ;GCGT_ME_SEAL_HIST                           ;59.9;B         
+OUCW_ADMIN      ;GCGT_ME_SEAL_REMOVAL_STATUS                 ;4;C         
+OUCW_ADMIN      ;GCGT_ME_SEAL_STATUS                         ;2;C         
+OUCW_ADMIN      ;GCGT_ME_SEAL_TYPE                           ;3;C         
+OUCW_ADMIN      ;GCGT_ME_STATUS                              ;49;M         
+OUCW_ADMIN      ;GCGT_ME_STATUS_GROUP                        ;22;P         
+OUCW_ADMIN      ;GCGT_ME_STATUS_GROUP_STATUS                 ;145;M         
+OUCW_ADMIN      ;GCGT_ME_SUPPLIER                            ;1;P         
+OUCW_ADMIN      ;GCGT_ME_TEST                                ;2;M         
+OUCW_ADMIN      ;GCGT_ME_TEST_ATTRIBUTES                     ;4;P         
+OUCW_ADMIN      ;GCGT_ME_TEST_RESULT_TYPE                    ;2;M         
+OUCW_ADMIN      ;GCGT_ME_TRANSFER                            ;5.991;B         
+OUCW_ADMIN      ;GCGT_ME_TRANSFER_CAUSE_STATUS               ;14;M         
+OUCW_ADMIN      ;GCGT_ME_TRANSFER_HIST                       ;11.895;B         
+OUCW_ADMIN      ;GCGT_ME_USAGE_TYPE_METER                    ;280.924;B         
+OUCW_ADMIN      ;GCGT_ME_USAGE_TYPE_MODEL                    ;279;C         
+OUCW_ADMIN      ;GCGT_OPERATIVE_UNIT_TYPE                    ;4;M         
+OUCW_ADMIN      ;GCGT_WO_ACTION                              ;19;C         
+OUCW_ADMIN      ;GCGT_WO_ACTION_MOTIVE                       ;12;M         
+OUCW_ADMIN      ;GCGT_WO_ACTION_POINT_GROUP                  ;0;M         
+OUCW_ADMIN      ;GCGT_WO_ACTION_POINT_TYPE                   ;3;M         
+OUCW_ADMIN      ;GCGT_WO_ACTION_TYPE                         ;26;M         
+OUCW_ADMIN      ;GCGT_WO_ACTIV_STATSGR_MASTE                 ;28;M         
+OUCW_ADMIN      ;GCGT_WO_ACTIVITY_APPOINTMENT                ;0;B         
+OUCW_ADMIN      ;GCGT_WO_ACTIVITY_STATUS                     ;16;M         
+OUCW_ADMIN      ;GCGT_WO_ACTIVITY_STATUS_GROUP               ;105;P         
+OUCW_ADMIN      ;GCGT_WO_ACTIVITY_STATUS_HISTOR              ;1.806.054  ;B         
+OUCW_ADMIN      ;GCGT_WO_APPOINTMENT                         ;0;B         
+OUCW_ADMIN      ;GCGT_WO_APPOINTMENT_STATUS                  ;3;M         
+OUCW_ADMIN      ;GCGT_WO_BLOCK_MOTIVE                        ;0;M         
+OUCW_ADMIN      ;GCGT_WO_BREAKDOWN_TYPE                      ;0;P         
+OUCW_ADMIN      ;GCGT_WO_BUDGET                              ;0;C         
+OUCW_ADMIN      ;GCGT_WO_BUDGET_MATERIAL                     ;0;C         
+OUCW_ADMIN      ;GCGT_WO_BUDGET_WORK                         ;0;C         
+OUCW_ADMIN      ;GCGT_WO_COMPANY_LOT_STATUS                  ;0;P         
+OUCW_ADMIN      ;GCGT_WO_DEPENDENT_ACTION                    ;0;C         
+OUCW_ADMIN      ;GCGT_WO_DISPATCHING                         ;158;B         
+OUCW_ADMIN      ;GCGT_WO_DISPATCHING_DETAIL                  ;3.29;B         
+OUCW_ADMIN      ;GCGT_WO_EXTERNAL_SYSTEM                     ;2;P         
+OUCW_ADMIN      ;GCGT_WO_FA_CANCEL_MOTIVE                    ;9;M         
+OUCW_ADMIN      ;GCGT_WO_FA_INTERRUPT_MOTIVE                 ;6;P         
+OUCW_ADMIN      ;GCGT_WO_FA_INTERRUPTION                     ;3;B         
+OUCW_ADMIN      ;GCGT_WO_FIELD_ACTIVITY                      ;325.797;B         
+OUCW_ADMIN      ;GCGT_WO_FIELD_ATTRIBUTES                    ;1.475.735  ;B         
+OUCW_ADMIN      ;GCGT_WO_FIELD_DEVICE                        ;48.496;B         
+OUCW_ADMIN      ;GCGT_WO_FIELD_INCIDENCE                     ;0;B         
+OUCW_ADMIN      ;GCGT_WO_FIELD_INCIDENCE_ATTR                ;0;B         
+OUCW_ADMIN      ;GCGT_WO_FIELDACTIVITY_RELATION              ;4.058;B         
+OUCW_ADMIN      ;GCGT_WO_GROUP_TYPE                          ;4;M         
+OUCW_ADMIN      ;GCGT_WO_GROUP_TYPE_GROUP                    ;0;M         
+OUCW_ADMIN      ;GCGT_WO_HHT_INFORMATION_UNLOAD              ;0;B         
+OUCW_ADMIN      ;GCGT_WO_LOT                                 ;0;B         
+OUCW_ADMIN      ;GCGT_WO_LOT_ATTRIBUTES                      ;0;B         
+OUCW_ADMIN      ;GCGT_WO_LOT_DETAIL                          ;0;B         
+OUCW_ADMIN      ;GCGT_WO_LOT_DETAIL_HIST                     ;0;B         
+OUCW_ADMIN      ;GCGT_WO_LOT_DETAIL_STATUS                   ;4;M         
+OUCW_ADMIN      ;GCGT_WO_LOT_STATUS                          ;5;M         
+OUCW_ADMIN      ;GCGT_WO_MAINTENANCE                         ;0;M         
+OUCW_ADMIN      ;GCGT_WO_MAT_FAMILY_TYPE                     ;1;P         
+OUCW_ADMIN      ;GCGT_WO_MAT_GROUP_TYPE                      ;49;M         
+OUCW_ADMIN      ;GCGT_WO_MAT_SUBFAMILY_TYPE                  ;5;P         
+OUCW_ADMIN      ;GCGT_WO_MAT_SUBGROUP_TYPE                   ;48;P         
+OUCW_ADMIN      ;GCGT_WO_MATERIAL                            ;10.811;B         
+OUCW_ADMIN      ;GCGT_WO_MATERIAL_PRICE                      ;215;C         
+OUCW_ADMIN      ;GCGT_WO_MATERIAL_STATUS                     ;4;P         
+OUCW_ADMIN      ;GCGT_WO_MATERIAL_UNIT                       ;0;C         
+OUCW_ADMIN      ;GCGT_WO_MATERIALS_OUT                       ;341;B         
+OUCW_ADMIN      ;GCGT_WO_MATERIALS_TYPE                      ;4.641;C         
+OUCW_ADMIN      ;GCGT_WO_MODULE                              ;68;P         
+OUCW_ADMIN      ;GCGT_WO_MOTIVE                              ;137;M         
+OUCW_ADMIN      ;GCGT_WO_NON_WORK_TYPE                       ;16;P         
+OUCW_ADMIN      ;GCGT_WO_PERSONNEL                           ;382;C         
+OUCW_ADMIN      ;GCGT_WO_PERSONNEL_ACT_TYPE                  ;4;M         
+OUCW_ADMIN      ;GCGT_WO_PERSONNEL_ACTIVITY                  ;419;B         
+OUCW_ADMIN      ;GCGT_WO_PERSONNEL_GROUP_TYPE                ;2;P         
+OUCW_ADMIN      ;GCGT_WO_PERSONNEL_STATUS                    ;4;M         
+OUCW_ADMIN      ;GCGT_WO_PERSONNEL_STATUS_GROUP              ;4;P         
+OUCW_ADMIN      ;GCGT_WO_PERSONNEL_TYPE                      ;7;P         
+OUCW_ADMIN      ;GCGT_WO_PERSONNEL_TYPE_GROUP                ;2;P         
+OUCW_ADMIN      ;GCGT_WO_PROCESS                             ;48;M         
+OUCW_ADMIN      ;GCGT_WO_READING_DEVICE                      ;48.479;B         
+OUCW_ADMIN      ;GCGT_WO_REFERENCE_TIPO_GROUP                ;93;C         
+OUCW_ADMIN      ;GCGT_WO_REL_CATEGORY_WORK                   ;121;C         
+OUCW_ADMIN      ;GCGT_WO_REL_TIPOLOGY_CAT_WORK               ;43;C         
+OUCW_ADMIN      ;GCGT_WO_REL_WORK_ATTRIBUTE                  ;0;C         
+OUCW_ADMIN      ;GCGT_WO_REQUEST_UNIT                        ;15;C         
+OUCW_ADMIN      ;GCGT_WO_RESCHEDULING_MOTIVE                 ;0;M         
+OUCW_ADMIN      ;GCGT_WO_RETURN_MOTIVE                       ;2;P         
+OUCW_ADMIN      ;GCGT_WO_SEAL                                ;9.828;B         
+OUCW_ADMIN      ;GCGT_WO_SECTOR_FEATURE                      ;40;C         
+OUCW_ADMIN      ;GCGT_WO_SLOT_LEVEL_TYPE                     ;2;M         
+OUCW_ADMIN      ;GCGT_WO_SLOT_TEMPLATE                       ;38;P         
+OUCW_ADMIN      ;GCGT_WO_TC_CENTER                           ;2;C         
+OUCW_ADMIN      ;GCGT_WO_TC_RELATION                         ;0;C         
+OUCW_ADMIN      ;GCGT_WO_TC_WG_RELATION                      ;894;C         
+OUCW_ADMIN      ;GCGT_WO_TECHNICAL_CENTER                    ;57;C         
+OUCW_ADMIN      ;GCGT_WO_TIME_SLOT                           ;61;P         
+OUCW_ADMIN      ;GCGT_WO_TIME_SLOT_HIST                      ;0;B         
+OUCW_ADMIN      ;GCGT_WO_TIP_CANCEL_MOTIVE                   ;0;P         
+OUCW_ADMIN      ;GCGT_WO_TIP_RESCHEDULINGMOTIVE              ;0;P         
+OUCW_ADMIN      ;GCGT_WO_TIPOLOGY                            ;90;C         
+OUCW_ADMIN      ;GCGT_WO_TIPOLOGY_ACTION                     ;28;C         
+OUCW_ADMIN      ;GCGT_WO_TIPOLOGY_ATTRIBUTES                 ;638;C         
+OUCW_ADMIN      ;GCGT_WO_TIPOLOGY_EXT_SYSTEM                 ;0;P         
+OUCW_ADMIN      ;GCGT_WO_TIPOLOGY_FEATURE                    ;0;C         
+OUCW_ADMIN      ;GCGT_WO_TIPOLOGY_FORMAT                     ;88;C         
+OUCW_ADMIN      ;GCGT_WO_TIPOLOGY_GROUP                      ;19;C         
+OUCW_ADMIN      ;GCGT_WO_TIPOLOGY_MATERIAL                   ;6.012;P         
+OUCW_ADMIN      ;GCGT_WO_TIPOLOGY_MODULE                     ;875;C         
+OUCW_ADMIN      ;GCGT_WO_TIPOLOGY_NON_WORK                   ;496;C         
+OUCW_ADMIN      ;GCGT_WO_TIPOLOGY_PRIORITY                   ;6;M         
+OUCW_ADMIN      ;GCGT_WO_TIPOLOGY_TOKEN                      ;0;C         
+OUCW_ADMIN      ;GCGT_WO_TPO                                 ;0;C         
+OUCW_ADMIN      ;GCGT_WO_TPO_STATUS                          ;2;P         
+OUCW_ADMIN      ;GCGT_WO_TPO_STATUS_GROUP                    ;0;P         
+OUCW_ADMIN      ;GCGT_WO_TPO_TYPE                            ;1;P         
+OUCW_ADMIN      ;GCGT_WO_UNIT_PROCESS_MOTIVE                 ;120;C         
+OUCW_ADMIN      ;GCGT_WO_UNITS_TYPE                          ;8;P         
+OUCW_ADMIN      ;GCGT_WO_UPM_GROUP                           ;0;C         
+OUCW_ADMIN      ;GCGT_WO_UPM_TIPOLOGY                        ;164;C         
+OUCW_ADMIN      ;GCGT_WO_VISIT_ACTION                        ;45.246;B         
+OUCW_ADMIN      ;GCGT_WO_VISIT_ACTION_DETAIL                 ;0;B         
+OUCW_ADMIN      ;GCGT_WO_VISIT_NON_WORK                      ;52;B         
+OUCW_ADMIN      ;GCGT_WO_VISIT_PERSONNAL                     ;222.396;B         
+OUCW_ADMIN      ;GCGT_WO_VISIT_STATUS                        ;3;M         
+OUCW_ADMIN      ;GCGT_WO_VISIT_TIPOLOGY                      ;0;P         
+OUCW_ADMIN      ;GCGT_WO_VISIT_TYPE                          ;0;P         
+OUCW_ADMIN      ;GCGT_WO_VISIT_WORK                          ;9.548;B         
+OUCW_ADMIN      ;GCGT_WO_VISIT_WORK_ATTRIBUTE                ;0;B         
+OUCW_ADMIN      ;GCGT_WO_VISITS                              ;223.317;B         
+OUCW_ADMIN      ;GCGT_WO_WORK_CATEGORY_TYPE                  ;29;C         
+OUCW_ADMIN      ;GCGT_WO_WORK_GROUP                          ;265;C         
+OUCW_ADMIN      ;GCGT_WO_WORK_GROUP_CENTER                   ;265;C         
+OUCW_ADMIN      ;GCGT_WO_WORK_GROUP_EMPLOYEE                 ;0;C         
+OUCW_ADMIN      ;GCGT_WO_WORK_GROUP_POSITION                 ;2.208.872  ;B         
+OUCW_ADMIN      ;GCGT_WO_WORK_PRICE                          ;0;C         
+OUCW_ADMIN      ;GCGT_WO_WORK_STATUS                         ;6;M         
+OUCW_ADMIN      ;GCGT_WO_WORK_STATUS_GROUP                   ;0;M         
+OUCW_ADMIN      ;GCGT_WO_WORK_TIPOLOGY                       ;414;C         
+OUCW_ADMIN      ;GCGT_WO_WORK_TYPE                           ;121;C         
+OUCW_ADMIN      ;GCGT_WO_WORKTYPE_MATERIAL                   ;0;P         
