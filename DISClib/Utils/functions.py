@@ -1,47 +1,31 @@
 def file_to_dict(
     path: str,
-    delimiter: str = ";",
-    key_column: str,
-    ignore_first_row: bool = True,
-    ignore_columns: list = [],
+    key_column: str | int,
+    delimiter: str,
+    firstrow_as_column_names: bool = True,
+    ignore_columns: list[str | int] = []
 ) -> dict:
+    file_as_dict = {}
     with open(path, "r") as f:
-        if ignore_first_row:
-            line = f.readline()
+        columns = []
+        if firstrow_as_column_names:
+            columns = [column.strip() for column in f.readline().split(delimiter)]
+
         line = f.readline()
+        if not columns:
+            columns = [i for i in range(len(f.readline().split(delimiter)))]
+        
+        if not set(ignore_columns).issubset(columns):
+            raise Exception(f"`ignore_columns={ignore_columns}` value has unrecognized columns")
+
+        if key_column not in columns:
+            raise Exception(f"`key_column={key_column}` not in list of `columns={columns}`")
+
         while line != "" and line is not None:
-            columns = line.split(delimiter)
-            table = table.strip()
-            column = column.strip()
-            referenced_table = referenced_table.strip()
-            referenced_column = referenced_column.strip()
-
-            # The current column is primary key of the current table
-            if referenced_column == "" and referenced_table == "":
-                line = f.readline()
-                continue
-
-            # If only a couple of tables are to be added to the database
-            if include_only and (
-                table not in include_only or referenced_table not in include_only
-            ):
-                line = f.readline()
-                continue
-
-            # Remove the relationships of tables pointing to themselves
-            if not allow_self_reference and referenced_table == table:
-                line = f.readline()
-                continue
-
-            # If not, then it must be a foreign key
-            database.insert_table(table)
-            database.insert_table(referenced_table)
-            database.insert_relationship(
-                table,
-                referenced_table,
-                src_fk=column,
-                target_fk=referenced_column,
-            )
+            values = [value.strip() for value in line.split(delimiter)]
+            column_values = {column: value for column, value in zip(columns, values) if column not in ignore_columns}
+            key_column_value = column_values.pop(key_column)
+            file_as_dict[key_column_value] = column_values
             line = f.readline()
 
-    return database
+    return file_as_dict

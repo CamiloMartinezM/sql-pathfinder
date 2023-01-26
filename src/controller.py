@@ -14,12 +14,12 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  """
-from xml.etree.ElementInclude import include
 import config as cf
 
 assert cf
 
 import model
+from DISClib.Utils.functions import file_to_dict
 
 
 def load_database_from_file(
@@ -64,8 +64,9 @@ def load_database_from_file(
     return database
 
 d = load_database_from_file(cf.DATA_PATH / "Tables.csv", allow_self_reference=False,)
+attrs = file_to_dict(cf.DATA_PATH / "Table_attrs.csv", key_column="table", delimiter=",", ignore_columns=["schema_name"])
 
-import networkx as nx 
+import networkx as nx
 
 nodes = nx.shortest_path(d.database,'GCCD_RELATIONSHIP').keys()
 
@@ -83,10 +84,12 @@ for path in d.paths(
     include_tables=["GCCOM_FARED_CONCEPT", "GCCOM_FARE_PERIOD"]
 ):
     path = list(path)
-    print(d.build_select_query(path))
-    print("")
+    # print(d.build_select_query(path))
+    # print("")
 
 # print(d.database.edges(data=True))
 
 print("")
 print(d.build_select_query(path))
+
+print(attrs)

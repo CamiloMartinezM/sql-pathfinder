@@ -38,7 +38,7 @@ class Database:
             self.database.add_node(table)
 
     def load_table_attrs(self, attrs: list) -> None:
-        
+        pass
 
     def paths(
         self,
