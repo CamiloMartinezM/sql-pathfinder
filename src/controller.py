@@ -19,7 +19,7 @@ import config as cf
 assert cf
 
 import model
-from DISClib.Utils.functions import file_to_dict
+from DISClib.Utils.functions import file_to_datastruct
 
 
 def load_database_from_file(
@@ -30,7 +30,13 @@ def load_database_from_file(
         line = f.readline()
         line = f.readline()
         while line != "" and line is not None:
-            (_, table, column, referenced_table, referenced_column,) = line.split(",")
+            (
+                _,
+                table,
+                column,
+                referenced_table,
+                referenced_column,
+            ) = line.split(",")
             table = table.strip()
             column = column.strip()
             referenced_table = referenced_table.strip()
@@ -57,39 +63,87 @@ def load_database_from_file(
             database.insert_table(table)
             database.insert_table(referenced_table)
             database.insert_relationship(
-                table, referenced_table, src_fk=column, target_fk=referenced_column,
+                table,
+                referenced_table,
+                src_fk=column,
+                target_fk=referenced_column,
             )
             line = f.readline()
 
     return database
 
-d = load_database_from_file(cf.DATA_PATH / "Tables.csv", allow_self_reference=False,)
-attrs = file_to_dict(cf.DATA_PATH / "Table_attrs.csv", key_column="table", delimiter=",", ignore_columns=["schema_name"])
+
+d = load_database_from_file(
+    cf.DATA_PATH / "Tables.csv",
+    allow_self_reference=False,
+)
+attrs = file_to_datastruct(
+    cf.DATA_PATH / "Table_attrs.csv",
+    key_column="table",
+    delimiter=",",
+    ignore_columns=["schema_name"],
+    datastruct="tuple",
+)
+d.load_table_attrs(attrs)
 
 import networkx as nx
 
-nodes = nx.shortest_path(d.database,'GCCD_RELATIONSHIP').keys()
+nodes = nx.shortest_path(d.database, "GCCD_RELATIONSHIP").keys()
+print(len(nodes))
 
-print(nodes)
-print("")
+"""
+B	NEGOCIO
+C	PARAMETRICAS CON MANTENIMIENTO
+G	NEGOCIO CON DATOS PARAMÃ‰TRICOS
+M	MAESTRAS
+P	PARAMETRICAS SIN MANTENIMIENTO
+Z	CONVERSIÃ“N
+"""
+nodes = d.filter_tables_per_attr(
+    nodes, filter_={"rows": ("!=", "0"), "table_type": ("in", ["B", "G"])}
+)
 
-print(d.number_of_tables())
+print(len(nodes))
+
+nodes = d.get_tables(
+    filter_=[
+        ("not in", "HIST"),
+        ("not in", "GCXS"),
+        ("not in", "ADP"),
+        ("not in", "GCPR"),
+        ("not in", "ARFM"),
+        ("not in", "GCGT_CA"),
+        ("not in", "ANOMAL"),
+    ],
+    tables=nodes,
+)
+
+print(len(nodes))
+
+# print(nodes)
+
+# Convert the list items to strings
+list_strings = [str(item) + "\n" for item in nodes]
+
+# Open a file for writing
+with open("list_contents.txt", "w") as f:
+    # Write the list strings to the file
+    f.writelines(list_strings)
+
 exclude_tables = d.get_tables(filter_=[("in", "GCGT")])
 
 for path in d.paths(
-    "GCCOM_FARE_CM_PARAMETER",
-    "GCCOM_FARE",
+    "GCCOM_SERVICE_RATE_TYPE",
+    "GCCOM_SERVICE_TYPE",
     cutoff=5,
-    exclude_tables=exclude_tables,
-    include_tables=["GCCOM_FARED_CONCEPT", "GCCOM_FARE_PERIOD"]
+    exclude_tables=["GCCOM_COMPANY_OFFERED_SERVICE"],
+    # include_tables=["GCCOM_FARED_CONCEPT", "GCCOM_FARE_PERIOD"],
 ):
     path = list(path)
-    # print(d.build_select_query(path))
+    print(d.build_select_query(path))
     # print("")
 
 # print(d.database.edges(data=True))
 
 print("")
 print(d.build_select_query(path))
-
-print(attrs)

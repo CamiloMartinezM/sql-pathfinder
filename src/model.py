@@ -37,8 +37,11 @@ class Database:
         else:
             self.database.add_node(table)
 
-    def load_table_attrs(self, attrs: list) -> None:
-        pass
+    def load_table_attrs(self, attrs_list: list[tuple[str, dict]]) -> None:
+        for curr_attr in attrs_list:
+            table, attrs = curr_attr
+            if table in self.database:
+                self.database.nodes[table].update(attrs)
 
     def paths(
         self,
@@ -74,24 +77,16 @@ class Database:
         path: list, func, wanted_value, all_for_true: bool = False
     ) -> bool:
         for node in path:
-            if (
-                (func == "=" and node != wanted_value)
-                or (func == "!=" and node == wanted_value)
-                or (func == "in" and wanted_value not in node)
-                or (
-                    func not in ("=", "!=", "in")
-                    and not getattr(node, func)(wanted_value)
-                )
-            ) and all_for_true:
+            if Database._check_filter(node, func, wanted_value) and all_for_true:
                 return False
         return True
 
-    def get_tables(self, filter_: dict) -> list:
+    def get_tables(self, filter_: dict, tables: list = []) -> list:
         """
         Parameters
         ----------
         filter_ : list
-            Filter criteria list where each item is a tuple where the first 
+            Filter criteria list where each item is a tuple where the first
             item is a function to apply to the node and the second item is
             the expected value.
 
@@ -100,11 +95,60 @@ class Database:
         list
             Nodes that match the given criteria.
         """
-        filtered = self.database.nodes()
+        filtered = self.database.nodes() if not tables else tables 
         for filter_criteria in filter_:
             func, wanted_value = filter_criteria
             filtered = self._filter_tables(filtered, func, wanted_value)
         return filtered
+
+    def filter_tables_per_attr(self, tables: list, filter_: dict[str, tuple]) -> list:
+        filtered = []
+        for table in tables:
+            if table in self.database:
+                if table == "GCCOM_INSURANCE_EXCH_RATE":
+                    print("hola")
+
+                for attr, filter_criteria in filter_.items():
+                    func, wanted_value = filter_criteria
+                    if attr in self.database.nodes[table].keys():
+                        if not self._check_filter(self.database.nodes[table][attr], func, wanted_value):
+                            break
+                else:
+                    filtered.append(table)
+
+        return filtered
+
+    @staticmethod
+    def _check_filter(to_check, func, wanted_value) -> list:
+        """
+        Parameters
+        ----------
+        to_check: any object
+            Value to check if it passes the filter criteria
+        func :
+            A function to apply to the given value.
+        wanted_value :
+            Stop criteria; the value determines if the given value matches
+            the filter criteria.
+
+        Returns
+        -------
+        bool
+            True if it matches the filter criteria.
+        """
+        if not (
+            (func == "=" and to_check != wanted_value)
+            or (func == "!=" and to_check == wanted_value)
+            or (func == "in" and type(wanted_value) is not list and wanted_value not in to_check)
+            or (func == "in" and type(wanted_value) is list and to_check not in wanted_value)
+            or (func == "not in" and wanted_value in to_check)
+            or (
+                func not in ("=", "!=", "in", "not in")
+                and not getattr(to_check, func)(wanted_value)
+            )
+        ):
+            return True
+        return False
 
     @staticmethod
     def _filter_tables(tables: list, func, wanted_value) -> list:
@@ -120,7 +164,7 @@ class Database:
             Stop criteria; the value determines when the algorithm will stop
             and decide that the current table must be in the resulting list of
             filtered tables.
-            
+
         Returns
         -------
         list
@@ -128,15 +172,7 @@ class Database:
         """
         filtered = []
         for table in tables:
-            if not (
-                (func == "=" and table != wanted_value)
-                or (func == "!=" and table == wanted_value)
-                or (func == "in" and wanted_value not in table)
-                or (
-                    func not in ("=", "!=", "in")
-                    and not getattr(table, func)(wanted_value)
-                )
-            ):
+            if Database._check_filter(table, func, wanted_value):
                 filtered.append(table)
         return filtered
 
@@ -205,7 +241,9 @@ class Database:
 
     @staticmethod
     def _table_alias(table: str, exclude_aliases: list = []) -> str:
-        possible_alias = "".join([p[0] for p in table.split("_")]) if "_" in table else table[0]
+        possible_alias = (
+            "".join([p[0] for p in table.split("_")]) if "_" in table else table[0]
+        )
         i = 1
         while possible_alias in exclude_aliases:
             if i > 1:
@@ -224,3 +262,10 @@ class Database:
 
     def number_of_relationships(self) -> int:
         return self.database.number_of_edges()
+
+    def get_table_attrs(self, table: str) -> dict:
+        return (
+            self.database.nodes[table]
+            if table in self.database
+            else None
+        )

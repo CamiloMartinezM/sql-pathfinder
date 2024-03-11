@@ -1,9 +1,10 @@
-def file_to_dict(
+def file_to_datastruct(
     path: str,
     key_column: str | int,
     delimiter: str,
     firstrow_as_column_names: bool = True,
-    ignore_columns: list[str | int] = []
+    ignore_columns: list[str | int] = [],
+    datastruct: str = "dict"
 ) -> dict:
     file_as_dict = {}
     with open(path, "r") as f:
@@ -27,5 +28,11 @@ def file_to_dict(
             key_column_value = column_values.pop(key_column)
             file_as_dict[key_column_value] = column_values
             line = f.readline()
+    
+    if datastruct == "list": 
+        file_as_dict = [[{key: value}] for key, value in file_as_dict.items()]
+    
+    if datastruct == "tuple":
+        file_as_dict = [(key, value) for key, value in file_as_dict.items()]
 
     return file_as_dict
